@@ -4,7 +4,7 @@
 
 ## 1. Deploy Project from Local Upload
 
-**[Demo Video](https://storage.googleapis.com/raidenaipublic/railway/railway-demo-n%40raiden.mp4)**
+https://github.com/user-attachments/assets/a4943550-9f88-4456-9557-b01f2aabeedf
  
 ### Description
 
@@ -14,7 +14,7 @@
 
 ## 2. Repository Adaptation/Migration Pipeline (Prototype)
 
-**[Prototype Video](https://storage.googleapis.com/raidenaipublic/railway/railway-n%40raiden-homework-pt2.mp4)**
+https://github.com/user-attachments/assets/61136324-8c68-4dbc-821c-d4de7ff41ecc
 
 ### Description
 
