@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "dotenv": "*",
+    "hono": "*",
+    "uuid": "*"
+  }
+}

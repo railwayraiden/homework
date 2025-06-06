@@ -1,0 +1,14 @@
+{
+    "$schema": "https://railway.com/railway.schema.json",
+    "build": {
+        "builder": "DOCKERFILE",
+        "dockerfilePath": "./Dockerfile"
+    },
+    "deploy": {
+        "startCommand": "bun index.js",
+        "healthcheckPath": "/",
+        "healthcheckTimeout": 100,
+        "restartPolicyType": "NEVER",
+        "sleepApplication": true
+    }
+}

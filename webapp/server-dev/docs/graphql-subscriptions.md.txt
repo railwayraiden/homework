@@ -1,0 +1,82 @@
+# create new project sequence : requests and responses
+
+
+
+
+
+# graphql subscriptions available
+
+```
+{
+  "name": "buildLogs",
+  "request": {
+	"method": "POST",
+	"header": [],
+	"body": {
+	  "mode": "graphql",
+	  "graphql": {
+		"query": "query buildLogs($deploymentId: String!, $endDate: DateTime, $filter: String, $limit: Int, $startDate: DateTime) {\n  buildLogs(\n    deploymentId: $deploymentId\n    endDate: $endDate\n    filter: $filter\n    limit: $limit\n    startDate: $startDate\n  ) {\n    __typename\n    # attributes # The attributes that were parsed from a structured log\n    message # The contents of the log message\n    severity # The severity of the log message (eg. err)\n    # tags # The tags that were associated with the log\n    timestamp # The timestamp of the log message in format RFC3339 (nano)\n  }\n}",
+		"variables": "{\n\t\"deploymentId\": null,\n\t\"endDate\": null,\n\t\"filter\": null,\n\t\"limit\": null,\n\t\"startDate\": null\n}"
+	  }
+	},
+	"url": {
+	  "raw": "https://backboard.railway.app/graphql/v2",
+	  "protocol": "https",
+	  "host": ["backboard", "railway", "app"],
+	  "path": ["graphql", "v2"]
+	},
+	"description": "Stream logs for a build"
+  },
+  "response": []
+}
+```
+
+```
+{
+  "name": "deploymentLogs",
+  "request": {
+	"method": "POST",
+	"header": [],
+	"body": {
+	  "mode": "graphql",
+	  "graphql": {
+		"query": "query deploymentLogs($deploymentId: String!, $endDate: DateTime, $filter: String, $limit: Int, $startDate: DateTime) {\n  deploymentLogs(\n    deploymentId: $deploymentId\n    endDate: $endDate\n    filter: $filter\n    limit: $limit\n    startDate: $startDate\n  ) {\n    __typename\n    # attributes # The attributes that were parsed from a structured log\n    message # The contents of the log message\n    severity # The severity of the log message (eg. err)\n    # tags # The tags that were associated with the log\n    timestamp # The timestamp of the log message in format RFC3339 (nano)\n  }\n}",
+		"variables": "{\n\t\"deploymentId\": null,\n\t\"endDate\": null,\n\t\"filter\": null,\n\t\"limit\": null,\n\t\"startDate\": null\n}"
+	  }
+	},
+	"url": {
+	  "raw": "https://backboard.railway.app/graphql/v2",
+	  "protocol": "https",
+	  "host": ["backboard", "railway", "app"],
+	  "path": ["graphql", "v2"]
+	},
+	"description": "Stream logs for a deployment"
+  },
+  "response": []
+},
+```
+
+```
+{
+  "name": "httpLogs",
+  "request": {
+	"method": "POST",
+	"header": [],
+	"body": {
+	  "mode": "graphql",
+	  "graphql": {
+		"query": "query httpLogs($afterDate: String, $afterLimit: Int, $anchorDate: String, $beforeDate: String, $beforeLimit: Int, $deploymentId: String!, $endDate: String, $filter: String, $limit: Int, $startDate: String) {\n  httpLogs(\n    afterDate: $afterDate\n    afterLimit: $afterLimit\n    anchorDate: $anchorDate\n    beforeDate: $beforeDate\n    beforeLimit: $beforeLimit\n    deploymentId: $deploymentId\n    endDate: $endDate\n    filter: $filter\n    limit: $limit\n    startDate: $startDate\n  ) {\n    __typename\n    clientUa # The client user agent\n    deploymentId # The deployment ID that was requested\n    deploymentInstanceId # The deployment instance ID that was requested\n    downstreamProto # The downstream HTTP protocol version\n    edgeRegion # The edge region the client connected to\n    host # The requested host\n    httpStatus # The http status of the log\n    method # The request HTTP method\n    path # The requested path\n    requestId # The unique request ID\n    responseDetails # Details about the upstream response\n    rxBytes # Received bytes\n    srcIp # The source IP of the request\n    timestamp # The timestamp the log was created\n    totalDuration # The total duration the request took\n    txBytes # Outgoing bytes\n    upstreamAddress # The upstream address\n    upstreamProto # The upstream HTTP protocol version\n    upstreamRqDuration # How long the upstream request took to respond\n  }\n}",
+		"variables": "{\n\t\"afterDate\": null,\n\t\"afterLimit\": null,\n\t\"anchorDate\": null,\n\t\"beforeDate\": null,\n\t\"beforeLimit\": null,\n\t\"deploymentId\": null,\n\t\"endDate\": null,\n\t\"filter\": null,\n\t\"limit\": null,\n\t\"startDate\": null\n}"
+	  }
+	},
+	"url": {
+	  "raw": "https://backboard.railway.app/graphql/v2",
+	  "protocol": "https",
+	  "host": ["backboard", "railway", "app"],
+	  "path": ["graphql", "v2"]
+	},
+	"description": "Stream HTTP logs for a deployment"
+  },
+  "response": []
+},
+```

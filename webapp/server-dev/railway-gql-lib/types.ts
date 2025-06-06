@@ -1,0 +1,9653 @@
+export default {
+    "scalars": [
+        1,
+        2,
+        10,
+        12,
+        13,
+        14,
+        15,
+        17,
+        19,
+        22,
+        31,
+        32,
+        33,
+        35,
+        41,
+        46,
+        48,
+        51,
+        56,
+        65,
+        76,
+        88,
+        90,
+        101,
+        103,
+        104,
+        112,
+        114,
+        120,
+        122,
+        123,
+        135,
+        148,
+        149,
+        186,
+        195,
+        204,
+        245,
+        251,
+        254,
+        257,
+        260,
+        261,
+        265,
+        266,
+        272,
+        283,
+        294,
+        297,
+        301,
+        302,
+        303,
+        304,
+        305,
+        318,
+        325,
+        334,
+        337,
+        341,
+        342,
+        348,
+        350,
+        351,
+        356,
+        384,
+        386,
+        390,
+        398,
+        399,
+        402
+    ],
+    "types": {
+        "AccessRule": {
+            "disallowed": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ActiveFeatureFlag": {},
+        "ActiveServiceFeatureFlag": {},
+        "AdoptionInfo": {
+            "adoptionLevel": [
+                88
+            ],
+            "createdAt": [
+                35
+            ],
+            "customer": [
+                308
+            ],
+            "deltaLevel": [
+                88
+            ],
+            "id": [
+                101
+            ],
+            "matchedIcpEmail": [
+                297
+            ],
+            "monthlyEstimatedUsage": [
+                88
+            ],
+            "numConfigFile": [
+                104
+            ],
+            "numCronSchedule": [
+                104
+            ],
+            "numDeploys": [
+                104
+            ],
+            "numEnvs": [
+                104
+            ],
+            "numFailedDeploys": [
+                104
+            ],
+            "numHealthcheck": [
+                104
+            ],
+            "numIconConfig": [
+                104
+            ],
+            "numRegion": [
+                104
+            ],
+            "numReplicas": [
+                104
+            ],
+            "numRootDirectory": [
+                104
+            ],
+            "numSeats": [
+                104
+            ],
+            "numServices": [
+                104
+            ],
+            "numSupportRequests": [
+                104
+            ],
+            "numVariables": [
+                104
+            ],
+            "numWatchPatterns": [
+                104
+            ],
+            "totalCores": [
+                88
+            ],
+            "totalDisk": [
+                88
+            ],
+            "totalNetwork": [
+                88
+            ],
+            "updatedAt": [
+                35
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "AggregatedUsage": {
+            "measurement": [
+                122
+            ],
+            "tags": [
+                124
+            ],
+            "value": [
+                88
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "AllDomains": {
+            "customDomains": [
+                23
+            ],
+            "serviceDomains": [
+                278
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ApiToken": {
+            "displayToken": [
+                297
+            ],
+            "id": [
+                101
+            ],
+            "name": [
+                297
+            ],
+            "teamId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ApiTokenCreateInput": {
+            "name": [
+                297
+            ],
+            "teamId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "BanReasonHistory": {
+            "actor": [
+                355
+            ],
+            "banReason": [
+                297
+            ],
+            "createdAt": [
+                35
+            ],
+            "id": [
+                101
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "BaseEnvironmentOverrideInput": {
+            "baseEnvironmentOverrideId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "BigInt": {},
+        "BillingPeriod": {
+            "end": [
+                35
+            ],
+            "start": [
+                35
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "Boolean": {},
+        "Builder": {},
+        "CDNProvider": {},
+        "CanvasConfig": {},
+        "CertificatePublicData": {
+            "domainNames": [
+                297
+            ],
+            "expiresAt": [
+                35
+            ],
+            "fingerprintSha256": [
+                297
+            ],
+            "issuedAt": [
+                35
+            ],
+            "keyType": [
+                114
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "CertificateStatus": {},
+        "CnameCheck": {
+            "link": [
+                297
+            ],
+            "message": [
+                297
+            ],
+            "status": [
+                19
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "CnameCheckStatus": {},
+        "Container": {
+            "createdAt": [
+                35
+            ],
+            "deletedAt": [
+                35
+            ],
+            "environment": [
+                64
+            ],
+            "environmentId": [
+                297
+            ],
+            "id": [
+                101
+            ],
+            "migratedAt": [
+                35
+            ],
+            "plugin": [
+                143
+            ],
+            "pluginId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "Credit": {
+            "amount": [
+                88
+            ],
+            "createdAt": [
+                35
+            ],
+            "customerId": [
+                297
+            ],
+            "id": [
+                101
+            ],
+            "memo": [
+                297
+            ],
+            "type": [
+                22
+            ],
+            "updatedAt": [
+                35
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "CreditType": {},
+        "CustomDomain": {
+            "cnameCheck": [
+                18
+            ],
+            "createdAt": [
+                35
+            ],
+            "deletedAt": [
+                35
+            ],
+            "domain": [
+                297
+            ],
+            "edgeId": [
+                297
+            ],
+            "environmentId": [
+                297
+            ],
+            "id": [
+                101
+            ],
+            "projectId": [
+                297
+            ],
+            "serviceId": [
+                297
+            ],
+            "status": [
+                25
+            ],
+            "targetPort": [
+                104
+            ],
+            "updatedAt": [
+                35
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "CustomDomainCreateInput": {
+            "domain": [
+                297
+            ],
+            "environmentId": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "serviceId": [
+                297
+            ],
+            "targetPort": [
+                104
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "CustomDomainStatus": {
+            "cdnProvider": [
+                14
+            ],
+            "certificateStatus": [
+                17
+            ],
+            "certificates": [
+                16
+            ],
+            "dnsRecords": [
+                34
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "Customer": {
+            "appliedCredits": [
+                88
+            ],
+            "billingEmail": [
+                297
+            ],
+            "billingPeriod": [
+                11
+            ],
+            "creditBalance": [
+                88
+            ],
+            "credits": [
+                27,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "currentUsage": [
+                88
+            ],
+            "defaultPaymentMethod": [
+                139
+            ],
+            "defaultPaymentMethodId": [
+                297
+            ],
+            "hasExhaustedFreePlan": [
+                12
+            ],
+            "id": [
+                101
+            ],
+            "invoices": [
+                29
+            ],
+            "isPrepaying": [
+                12
+            ],
+            "isTrialing": [
+                12
+            ],
+            "isUsageSubscriber": [
+                12
+            ],
+            "isWithdrawingToCredits": [
+                12
+            ],
+            "planLimitOverride": [
+                141
+            ],
+            "remainingUsageCreditBalance": [
+                88
+            ],
+            "state": [
+                304
+            ],
+            "stripeCustomerId": [
+                297
+            ],
+            "subscriptions": [
+                30
+            ],
+            "trialDaysRemaining": [
+                104
+            ],
+            "usageLimit": [
+                352
+            ],
+            "workspace": [
+                403
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "CustomerCreditsConnection": {
+            "edges": [
+                28
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "CustomerCreditsConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                21
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "CustomerInvoice": {
+            "amountDue": [
+                88
+            ],
+            "amountPaid": [
+                88
+            ],
+            "hostedURL": [
+                297
+            ],
+            "invoiceId": [
+                297
+            ],
+            "items": [
+                300
+            ],
+            "paymentIntentStatus": [
+                297
+            ],
+            "pdfURL": [
+                297
+            ],
+            "periodEnd": [
+                297
+            ],
+            "periodStart": [
+                297
+            ],
+            "reissuedInvoiceFrom": [
+                297
+            ],
+            "reissuedInvoiceOf": [
+                297
+            ],
+            "status": [
+                297
+            ],
+            "subscriptionId": [
+                297
+            ],
+            "total": [
+                104
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "CustomerSubscription": {
+            "billingCycleAnchor": [
+                35
+            ],
+            "cancelAt": [
+                297
+            ],
+            "cancelAtPeriodEnd": [
+                12
+            ],
+            "couponId": [
+                297
+            ],
+            "discounts": [
+                299
+            ],
+            "id": [
+                297
+            ],
+            "items": [
+                300
+            ],
+            "latestInvoiceId": [
+                297
+            ],
+            "nextInvoiceCurrentTotal": [
+                104
+            ],
+            "nextInvoiceDate": [
+                297
+            ],
+            "status": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "DNSRecordPurpose": {},
+        "DNSRecordStatus": {},
+        "DNSRecordType": {},
+        "DNSRecords": {
+            "currentValue": [
+                297
+            ],
+            "fqdn": [
+                297
+            ],
+            "hostlabel": [
+                297
+            ],
+            "purpose": [
+                31
+            ],
+            "recordType": [
+                33
+            ],
+            "requiredValue": [
+                297
+            ],
+            "status": [
+                32
+            ],
+            "zone": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "DateTime": {},
+        "Deployment": {
+            "canRedeploy": [
+                12
+            ],
+            "canRollback": [
+                12
+            ],
+            "createdAt": [
+                35
+            ],
+            "creator": [
+                37
+            ],
+            "deploymentStopped": [
+                12
+            ],
+            "environment": [
+                64
+            ],
+            "environmentId": [
+                297
+            ],
+            "id": [
+                101
+            ],
+            "instances": [
+                38
+            ],
+            "meta": [
+                48
+            ],
+            "projectId": [
+                297
+            ],
+            "service": [
+                273
+            ],
+            "serviceId": [
+                297
+            ],
+            "snapshotId": [
+                297
+            ],
+            "sockets": [
+                50
+            ],
+            "staticUrl": [
+                297
+            ],
+            "status": [
+                51
+            ],
+            "suggestAddServiceDomain": [
+                12
+            ],
+            "updatedAt": [
+                35
+            ],
+            "url": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "DeploymentCreator": {
+            "avatar": [
+                297
+            ],
+            "email": [
+                297
+            ],
+            "id": [
+                297
+            ],
+            "name": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "DeploymentDeploymentInstance": {
+            "status": [
+                46
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "DeploymentEvent": {
+            "completedAt": [
+                35
+            ],
+            "createdAt": [
+                35
+            ],
+            "id": [
+                101
+            ],
+            "payload": [
+                40
+            ],
+            "step": [
+                41
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "DeploymentEventPayload": {
+            "error": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "DeploymentEventStep": {},
+        "DeploymentInstanceExecution": {
+            "completedAt": [
+                35
+            ],
+            "createdAt": [
+                35
+            ],
+            "deploymentId": [
+                297
+            ],
+            "deploymentMeta": [
+                48
+            ],
+            "id": [
+                101
+            ],
+            "status": [
+                46
+            ],
+            "updatedAt": [
+                35
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "DeploymentInstanceExecutionCreateInput": {
+            "serviceInstanceId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "DeploymentInstanceExecutionInput": {
+            "deploymentId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "DeploymentInstanceExecutionListInput": {
+            "environmentId": [
+                297
+            ],
+            "serviceId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "DeploymentInstanceStatus": {},
+        "DeploymentListInput": {
+            "environmentId": [
+                297
+            ],
+            "includeDeleted": [
+                12
+            ],
+            "projectId": [
+                297
+            ],
+            "serviceId": [
+                297
+            ],
+            "status": [
+                52
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "DeploymentMeta": {},
+        "DeploymentSnapshot": {
+            "createdAt": [
+                35
+            ],
+            "id": [
+                101
+            ],
+            "updatedAt": [
+                35
+            ],
+            "variables": [
+                76
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "DeploymentSocket": {
+            "ipv6": [
+                12
+            ],
+            "port": [
+                104
+            ],
+            "processName": [
+                297
+            ],
+            "updatedAt": [
+                104
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "DeploymentStatus": {},
+        "DeploymentStatusInput": {
+            "in": [
+                51
+            ],
+            "notIn": [
+                51
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "DeploymentTrigger": {
+            "baseEnvironmentOverrideId": [
+                297
+            ],
+            "branch": [
+                297
+            ],
+            "checkSuites": [
+                12
+            ],
+            "environmentId": [
+                297
+            ],
+            "id": [
+                101
+            ],
+            "projectId": [
+                297
+            ],
+            "provider": [
+                297
+            ],
+            "repository": [
+                297
+            ],
+            "serviceId": [
+                297
+            ],
+            "validCheckSuites": [
+                104
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "DeploymentTriggerCreateInput": {
+            "branch": [
+                297
+            ],
+            "checkSuites": [
+                12
+            ],
+            "environmentId": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "provider": [
+                297
+            ],
+            "repository": [
+                297
+            ],
+            "rootDirectory": [
+                297
+            ],
+            "serviceId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "DeploymentTriggerUpdateInput": {
+            "branch": [
+                297
+            ],
+            "checkSuites": [
+                12
+            ],
+            "repository": [
+                297
+            ],
+            "rootDirectory": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "DisplayConfig": {},
+        "DockerComposeImport": {
+            "errors": [
+                297
+            ],
+            "patch": [
+                65
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "Domain": {
+            "createdAt": [
+                35
+            ],
+            "deletedAt": [
+                35
+            ],
+            "domain": [
+                297
+            ],
+            "edgeId": [
+                297
+            ],
+            "environmentId": [
+                297
+            ],
+            "id": [
+                101
+            ],
+            "projectId": [
+                297
+            ],
+            "serviceId": [
+                297
+            ],
+            "targetPort": [
+                104
+            ],
+            "updatedAt": [
+                35
+            ],
+            "on_CustomDomain": [
+                23
+            ],
+            "on_ServiceDomain": [
+                278
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "DomainAvailable": {
+            "available": [
+                12
+            ],
+            "message": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "DomainWithStatus": {
+            "cdnProvider": [
+                14
+            ],
+            "certificateStatus": [
+                17
+            ],
+            "certificates": [
+                16
+            ],
+            "dnsRecords": [
+                34
+            ],
+            "domain": [
+                58
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "EgressGateway": {
+            "ipv4": [
+                297
+            ],
+            "region": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "EgressGatewayCreateInput": {
+            "environmentId": [
+                297
+            ],
+            "region": [
+                297
+            ],
+            "serviceId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "EgressGatewayServiceTargetInput": {
+            "environmentId": [
+                297
+            ],
+            "serviceId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "Environment": {
+            "createdAt": [
+                35
+            ],
+            "deletedAt": [
+                35
+            ],
+            "deploymentTriggers": [
+                67,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "deployments": [
+                69,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "id": [
+                101
+            ],
+            "isEphemeral": [
+                12
+            ],
+            "meta": [
+                71
+            ],
+            "name": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "serviceInstances": [
+                73,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "sourceEnvironment": [
+                64
+            ],
+            "unmergedChangesCount": [
+                104
+            ],
+            "updatedAt": [
+                35
+            ],
+            "variables": [
+                77,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "volumeInstances": [
+                79,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "EnvironmentConfig": {},
+        "EnvironmentCreateInput": {
+            "ephemeral": [
+                12
+            ],
+            "name": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "skipInitialDeploys": [
+                12
+            ],
+            "sourceEnvironmentId": [
+                297
+            ],
+            "stageInitialChanges": [
+                12
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "EnvironmentDeploymentTriggersConnection": {
+            "edges": [
+                68
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "EnvironmentDeploymentTriggersConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                53
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "EnvironmentDeploymentsConnection": {
+            "edges": [
+                70
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "EnvironmentDeploymentsConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                36
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "EnvironmentMeta": {
+            "baseBranch": [
+                297
+            ],
+            "branch": [
+                297
+            ],
+            "prCommentId": [
+                104
+            ],
+            "prNumber": [
+                104
+            ],
+            "prRepo": [
+                297
+            ],
+            "prTitle": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "EnvironmentRenameInput": {
+            "name": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "EnvironmentServiceInstancesConnection": {
+            "edges": [
+                74
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "EnvironmentServiceInstancesConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                282
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "EnvironmentTriggersDeployInput": {
+            "environmentId": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "serviceId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "EnvironmentVariables": {},
+        "EnvironmentVariablesConnection": {
+            "edges": [
+                78
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "EnvironmentVariablesConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                372
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "EnvironmentVolumeInstancesConnection": {
+            "edges": [
+                80
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "EnvironmentVolumeInstancesConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                381
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "EstimatedUsage": {
+            "estimatedValue": [
+                88
+            ],
+            "measurement": [
+                122
+            ],
+            "projectId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "Event": {
+            "action": [
+                297
+            ],
+            "createdAt": [
+                35
+            ],
+            "environment": [
+                64
+            ],
+            "environmentId": [
+                297
+            ],
+            "id": [
+                101
+            ],
+            "object": [
+                297
+            ],
+            "payload": [
+                112
+            ],
+            "project": [
+                162
+            ],
+            "projectId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "EventFilterInput": {
+            "action": [
+                84
+            ],
+            "object": [
+                84
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "EventStringListFilter": {
+            "in": [
+                297
+            ],
+            "notIn": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ExplicitOwnerInput": {
+            "id": [
+                297
+            ],
+            "type": [
+                265
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ExternalWorkspace": {
+            "avatar": [
+                297
+            ],
+            "banReason": [
+                297
+            ],
+            "createdAt": [
+                35
+            ],
+            "customerState": [
+                304
+            ],
+            "discordRole": [
+                297
+            ],
+            "hasBAA": [
+                12
+            ],
+            "id": [
+                297
+            ],
+            "isTrialing": [
+                12
+            ],
+            "name": [
+                297
+            ],
+            "preferredRegion": [
+                297
+            ],
+            "projects": [
+                162
+            ],
+            "subscriptionModel": [
+                301
+            ],
+            "supportTierOverride": [
+                297
+            ],
+            "teamId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "FeatureFlagToggleInput": {
+            "flag": [
+                1
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "Float": {},
+        "FunctionRuntime": {
+            "image": [
+                297
+            ],
+            "latestVersion": [
+                91
+            ],
+            "name": [
+                90
+            ],
+            "versions": [
+                91
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "FunctionRuntimeName": {},
+        "FunctionRuntimeVersion": {
+            "image": [
+                297
+            ],
+            "tag": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "GitHubAccess": {
+            "hasAccess": [
+                12
+            ],
+            "isPublic": [
+                12
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "GitHubBranch": {
+            "name": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "GitHubRepo": {
+            "defaultBranch": [
+                297
+            ],
+            "fullName": [
+                297
+            ],
+            "id": [
+                104
+            ],
+            "installationId": [
+                297
+            ],
+            "isPrivate": [
+                12
+            ],
+            "name": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "GitHubRepoDeployInput": {
+            "branch": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "repo": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "GitHubRepoUpdateInput": {
+            "environmentId": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "serviceId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "GitHubRepoWithoutInstallation": {
+            "defaultBranch": [
+                297
+            ],
+            "fullName": [
+                297
+            ],
+            "id": [
+                104
+            ],
+            "isPrivate": [
+                12
+            ],
+            "name": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "HerokuApp": {
+            "id": [
+                297
+            ],
+            "name": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "HerokuImportVariablesInput": {
+            "environmentId": [
+                297
+            ],
+            "herokuAppId": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "serviceId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "HttpLog": {
+            "clientUa": [
+                297
+            ],
+            "deploymentId": [
+                297
+            ],
+            "deploymentInstanceId": [
+                297
+            ],
+            "downstreamProto": [
+                297
+            ],
+            "edgeRegion": [
+                297
+            ],
+            "host": [
+                297
+            ],
+            "httpStatus": [
+                104
+            ],
+            "method": [
+                297
+            ],
+            "path": [
+                297
+            ],
+            "requestId": [
+                297
+            ],
+            "responseDetails": [
+                297
+            ],
+            "rxBytes": [
+                104
+            ],
+            "srcIp": [
+                297
+            ],
+            "timestamp": [
+                297
+            ],
+            "totalDuration": [
+                104
+            ],
+            "txBytes": [
+                104
+            ],
+            "upstreamAddress": [
+                297
+            ],
+            "upstreamProto": [
+                297
+            ],
+            "upstreamRqDuration": [
+                104
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ID": {},
+        "Incident": {
+            "id": [
+                297
+            ],
+            "message": [
+                297
+            ],
+            "status": [
+                103
+            ],
+            "url": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "IncidentStatus": {},
+        "Int": {},
+        "Integration": {
+            "config": [
+                112
+            ],
+            "id": [
+                101
+            ],
+            "name": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "IntegrationAuth": {
+            "id": [
+                101
+            ],
+            "integrations": [
+                107,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "provider": [
+                297
+            ],
+            "providerId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "IntegrationAuthIntegrationsConnection": {
+            "edges": [
+                108
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "IntegrationAuthIntegrationsConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                105
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "IntegrationCreateInput": {
+            "config": [
+                112
+            ],
+            "integrationAuthId": [
+                297
+            ],
+            "name": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "IntegrationUpdateInput": {
+            "config": [
+                112
+            ],
+            "integrationAuthId": [
+                297
+            ],
+            "name": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "InviteCode": {
+            "code": [
+                297
+            ],
+            "createdAt": [
+                35
+            ],
+            "id": [
+                101
+            ],
+            "project": [
+                162
+            ],
+            "projectId": [
+                297
+            ],
+            "role": [
+                186
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "JSON": {},
+        "JobApplicationCreateInput": {
+            "email": [
+                297
+            ],
+            "jobId": [
+                297
+            ],
+            "name": [
+                297
+            ],
+            "why": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "KeyType": {},
+        "Log": {
+            "attributes": [
+                116
+            ],
+            "message": [
+                297
+            ],
+            "severity": [
+                297
+            ],
+            "tags": [
+                117
+            ],
+            "timestamp": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "LogAttribute": {
+            "key": [
+                297
+            ],
+            "value": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "LogTags": {
+            "deploymentId": [
+                297
+            ],
+            "deploymentInstanceId": [
+                297
+            ],
+            "environmentId": [
+                297
+            ],
+            "pluginId": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "serviceId": [
+                297
+            ],
+            "snapshotId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "LoginSessionAuthInput": {
+            "code": [
+                297
+            ],
+            "hostname": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "Maintenance": {
+            "id": [
+                297
+            ],
+            "message": [
+                297
+            ],
+            "status": [
+                120
+            ],
+            "url": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "MaintenanceStatus": {},
+        "Metric": {
+            "ts": [
+                104
+            ],
+            "value": [
+                88
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "MetricMeasurement": {},
+        "MetricTag": {},
+        "MetricTags": {
+            "deploymentId": [
+                297
+            ],
+            "environmentId": [
+                297
+            ],
+            "pluginId": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "serviceId": [
+                297
+            ],
+            "volumeId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "MetricsResult": {
+            "measurement": [
+                122
+            ],
+            "tags": [
+                124
+            ],
+            "values": [
+                121
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "Mutation": {
+            "apiTokenCreate": [
+                297,
+                {
+                    "input": [
+                        7,
+                        "ApiTokenCreateInput!"
+                    ]
+                }
+            ],
+            "apiTokenDelete": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "baseEnvironmentOverride": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "input": [
+                        9,
+                        "BaseEnvironmentOverrideInput!"
+                    ]
+                }
+            ],
+            "customDomainCreate": [
+                23,
+                {
+                    "input": [
+                        24,
+                        "CustomDomainCreateInput!"
+                    ]
+                }
+            ],
+            "customDomainDelete": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "customDomainUpdate": [
+                12,
+                {
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ],
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "targetPort": [
+                        104
+                    ]
+                }
+            ],
+            "customerCreateFreePlanSubscription": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "customerTogglePayoutsToCredits": [
+                12,
+                {
+                    "customerId": [
+                        297,
+                        "String!"
+                    ],
+                    "input": [
+                        405,
+                        "customerTogglePayoutsToCreditsInput!"
+                    ]
+                }
+            ],
+            "deploymentApprove": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "deploymentCancel": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "deploymentInstanceExecutionCreate": [
+                12,
+                {
+                    "input": [
+                        43,
+                        "DeploymentInstanceExecutionCreateInput!"
+                    ]
+                }
+            ],
+            "deploymentRedeploy": [
+                36,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "usePreviousImageTag": [
+                        12
+                    ]
+                }
+            ],
+            "deploymentRemove": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "deploymentRestart": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "deploymentRollback": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "deploymentStop": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "deploymentTriggerCreate": [
+                53,
+                {
+                    "input": [
+                        54,
+                        "DeploymentTriggerCreateInput!"
+                    ]
+                }
+            ],
+            "deploymentTriggerDelete": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "deploymentTriggerUpdate": [
+                53,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "input": [
+                        55,
+                        "DeploymentTriggerUpdateInput!"
+                    ]
+                }
+            ],
+            "dockerComposeImport": [
+                57,
+                {
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ],
+                    "projectId": [
+                        297,
+                        "String!"
+                    ],
+                    "skipStagingPatch": [
+                        12
+                    ],
+                    "yaml": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "egressGatewayAssociationCreate": [
+                61,
+                {
+                    "input": [
+                        62,
+                        "EgressGatewayCreateInput!"
+                    ]
+                }
+            ],
+            "egressGatewayAssociationsClear": [
+                12,
+                {
+                    "input": [
+                        63,
+                        "EgressGatewayServiceTargetInput!"
+                    ]
+                }
+            ],
+            "emailChangeConfirm": [
+                12,
+                {
+                    "nonce": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "emailChangeInitiate": [
+                12,
+                {
+                    "newEmail": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "environmentCreate": [
+                64,
+                {
+                    "input": [
+                        66,
+                        "EnvironmentCreateInput!"
+                    ]
+                }
+            ],
+            "environmentDelete": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "environmentPatchCommit": [
+                297,
+                {
+                    "commitMessage": [
+                        297
+                    ],
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ],
+                    "patch": [
+                        65
+                    ]
+                }
+            ],
+            "environmentRename": [
+                64,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "input": [
+                        72,
+                        "EnvironmentRenameInput!"
+                    ]
+                }
+            ],
+            "environmentTriggersDeploy": [
+                12,
+                {
+                    "input": [
+                        75,
+                        "EnvironmentTriggersDeployInput!"
+                    ]
+                }
+            ],
+            "fairUseAgree": [
+                12,
+                {
+                    "agree": [
+                        12,
+                        "Boolean!"
+                    ]
+                }
+            ],
+            "featureFlagAdd": [
+                12,
+                {
+                    "input": [
+                        87,
+                        "FeatureFlagToggleInput!"
+                    ]
+                }
+            ],
+            "featureFlagRemove": [
+                12,
+                {
+                    "input": [
+                        87,
+                        "FeatureFlagToggleInput!"
+                    ]
+                }
+            ],
+            "githubRepoDeploy": [
+                297,
+                {
+                    "input": [
+                        95,
+                        "GitHubRepoDeployInput!"
+                    ]
+                }
+            ],
+            "githubRepoUpdate": [
+                12,
+                {
+                    "input": [
+                        96,
+                        "GitHubRepoUpdateInput!"
+                    ]
+                }
+            ],
+            "herokuImportVariables": [
+                104,
+                {
+                    "input": [
+                        99,
+                        "HerokuImportVariablesInput!"
+                    ]
+                }
+            ],
+            "integrationCreate": [
+                105,
+                {
+                    "input": [
+                        109,
+                        "IntegrationCreateInput!"
+                    ]
+                }
+            ],
+            "integrationDelete": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "integrationUpdate": [
+                105,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "input": [
+                        110,
+                        "IntegrationUpdateInput!"
+                    ]
+                }
+            ],
+            "inviteCodeUse": [
+                162,
+                {
+                    "code": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "jobApplicationCreate": [
+                12,
+                {
+                    "input": [
+                        113,
+                        "JobApplicationCreateInput!"
+                    ],
+                    "resume": [
+                        348,
+                        "Upload!"
+                    ]
+                }
+            ],
+            "loginSessionAuth": [
+                12,
+                {
+                    "input": [
+                        118,
+                        "LoginSessionAuthInput!"
+                    ]
+                }
+            ],
+            "loginSessionCancel": [
+                12,
+                {
+                    "code": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "loginSessionConsume": [
+                297,
+                {
+                    "code": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "loginSessionCreate": [
+                297
+            ],
+            "loginSessionVerify": [
+                12,
+                {
+                    "code": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "logout": [
+                12
+            ],
+            "observabilityDashboardCreate": [
+                12,
+                {
+                    "input": [
+                        129,
+                        "ObservabilityDashboardCreateInput!"
+                    ]
+                }
+            ],
+            "observabilityDashboardReset": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "observabilityDashboardUpdate": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "input": [
+                        136,
+                        "[ObservabilityDashboardUpdateInput!]!"
+                    ]
+                }
+            ],
+            "pluginCreate": [
+                143,
+                {
+                    "input": [
+                        146,
+                        "PluginCreateInput!"
+                    ]
+                }
+            ],
+            "pluginDelete": [
+                12,
+                {
+                    "environmentId": [
+                        297
+                    ],
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "pluginReset": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "input": [
+                        263,
+                        "ResetPluginInput!"
+                    ]
+                }
+            ],
+            "pluginResetCredentials": [
+                297,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "input": [
+                        262,
+                        "ResetPluginCredentialsInput!"
+                    ]
+                }
+            ],
+            "pluginRestart": [
+                143,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "input": [
+                        147,
+                        "PluginRestartInput!"
+                    ]
+                }
+            ],
+            "pluginStart": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "input": [
+                        147,
+                        "PluginRestartInput!"
+                    ]
+                }
+            ],
+            "pluginUpdate": [
+                143,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "input": [
+                        150,
+                        "PluginUpdateInput!"
+                    ]
+                }
+            ],
+            "preferenceOverridesCreateUpdate": [
+                12,
+                {
+                    "input": [
+                        154,
+                        "PreferenceOverridesCreateUpdateData!"
+                    ]
+                }
+            ],
+            "preferenceOverridesDestroyForResource": [
+                12,
+                {
+                    "input": [
+                        155,
+                        "PreferenceOverridesDestroyData!"
+                    ]
+                }
+            ],
+            "preferencesUpdate": [
+                156,
+                {
+                    "input": [
+                        157,
+                        "PreferencesUpdateData!"
+                    ]
+                }
+            ],
+            "privateNetworkCreateOrGet": [
+                158,
+                {
+                    "input": [
+                        159,
+                        "PrivateNetworkCreateOrGetInput!"
+                    ]
+                }
+            ],
+            "privateNetworkEndpointCreateOrGet": [
+                160,
+                {
+                    "input": [
+                        161,
+                        "PrivateNetworkEndpointCreateOrGetInput!"
+                    ]
+                }
+            ],
+            "privateNetworkEndpointDelete": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "privateNetworkEndpointRename": [
+                12,
+                {
+                    "dnsName": [
+                        297,
+                        "String!"
+                    ],
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "privateNetworkId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "privateNetworksForEnvironmentDelete": [
+                12,
+                {
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "projectClaim": [
+                162,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "workspaceId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "projectCreate": [
+                162,
+                {
+                    "input": [
+                        163,
+                        "ProjectCreateInput!"
+                    ]
+                }
+            ],
+            "projectDelete": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "projectInvitationAccept": [
+                180,
+                {
+                    "code": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "projectInvitationCreate": [
+                173,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "input": [
+                        176,
+                        "ProjectInvitee!"
+                    ]
+                }
+            ],
+            "projectInvitationDelete": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "projectInvitationResend": [
+                173,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "projectInviteUser": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "input": [
+                        175,
+                        "ProjectInviteUserInput!"
+                    ]
+                }
+            ],
+            "projectLeave": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "projectMemberRemove": [
+                177,
+                {
+                    "input": [
+                        178,
+                        "ProjectMemberRemoveInput!"
+                    ]
+                }
+            ],
+            "projectMemberUpdate": [
+                177,
+                {
+                    "input": [
+                        179,
+                        "ProjectMemberUpdateInput!"
+                    ]
+                }
+            ],
+            "projectScheduleDelete": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "projectScheduleDeleteCancel": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "projectScheduleDeleteForce": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "projectTokenCreate": [
+                297,
+                {
+                    "input": [
+                        190,
+                        "ProjectTokenCreateInput!"
+                    ]
+                }
+            ],
+            "projectTokenDelete": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "projectTransferConfirm": [
+                12,
+                {
+                    "input": [
+                        191,
+                        "ProjectTransferConfirmInput!"
+                    ]
+                }
+            ],
+            "projectTransferInitiate": [
+                12,
+                {
+                    "input": [
+                        192,
+                        "ProjectTransferInitiateInput!"
+                    ]
+                }
+            ],
+            "projectTransferToTeam": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "input": [
+                        193,
+                        "ProjectTransferToTeamInput!"
+                    ]
+                }
+            ],
+            "projectUpdate": [
+                162,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "input": [
+                        194,
+                        "ProjectUpdateInput!"
+                    ]
+                }
+            ],
+            "providerAuthRemove": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "recoveryCodeGenerate": [
+                247
+            ],
+            "recoveryCodeValidate": [
+                12,
+                {
+                    "input": [
+                        246,
+                        "RecoveryCodeValidateInput!"
+                    ]
+                }
+            ],
+            "referralInfoUpdate": [
+                248,
+                {
+                    "input": [
+                        249,
+                        "ReferralInfoUpdateInput!"
+                    ]
+                }
+            ],
+            "sendBountyWonEmail": [
+                12,
+                {
+                    "input": [
+                        267,
+                        "SendBountyWonEmailInput!"
+                    ]
+                }
+            ],
+            "sendCommunityThreadNotificationEmail": [
+                12,
+                {
+                    "input": [
+                        268,
+                        "SendCommunityThreadNotificationEmailInput!"
+                    ]
+                }
+            ],
+            "sendCommunityWelcomeEmail": [
+                12,
+                {
+                    "input": [
+                        269,
+                        "SendCommunityWelcomeEmailInput!"
+                    ]
+                }
+            ],
+            "sendNewBountyEmail": [
+                12,
+                {
+                    "input": [
+                        270,
+                        "SendNewBountyEmailInput!"
+                    ]
+                }
+            ],
+            "sendQuestionMovedToBountyEmail": [
+                12,
+                {
+                    "input": [
+                        271,
+                        "SendQuestionMovedToBountyEmailInput!"
+                    ]
+                }
+            ],
+            "serviceConnect": [
+                273,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "input": [
+                        274,
+                        "ServiceConnectInput!"
+                    ]
+                }
+            ],
+            "serviceCreate": [
+                273,
+                {
+                    "input": [
+                        275,
+                        "ServiceCreateInput!"
+                    ]
+                }
+            ],
+            "serviceDelete": [
+                12,
+                {
+                    "environmentId": [
+                        297
+                    ],
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "serviceDisconnect": [
+                273,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "serviceDomainCreate": [
+                278,
+                {
+                    "input": [
+                        279,
+                        "ServiceDomainCreateInput!"
+                    ]
+                }
+            ],
+            "serviceDomainDelete": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "serviceDomainUpdate": [
+                12,
+                {
+                    "input": [
+                        280,
+                        "ServiceDomainUpdateInput!"
+                    ]
+                }
+            ],
+            "serviceDuplicate": [
+                273,
+                {
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ],
+                    "serviceId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "serviceFeatureFlagAdd": [
+                12,
+                {
+                    "input": [
+                        281,
+                        "ServiceFeatureFlagToggleInput!"
+                    ]
+                }
+            ],
+            "serviceFeatureFlagRemove": [
+                12,
+                {
+                    "input": [
+                        281,
+                        "ServiceFeatureFlagToggleInput!"
+                    ]
+                }
+            ],
+            "serviceInstanceDeploy": [
+                12,
+                {
+                    "commitSha": [
+                        297
+                    ],
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ],
+                    "latestCommit": [
+                        12
+                    ],
+                    "serviceId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "serviceInstanceDeployV2": [
+                297,
+                {
+                    "commitSha": [
+                        297
+                    ],
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ],
+                    "serviceId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "serviceInstanceLimitsUpdate": [
+                12,
+                {
+                    "input": [
+                        284,
+                        "ServiceInstanceLimitsUpdateInput!"
+                    ]
+                }
+            ],
+            "serviceInstanceRedeploy": [
+                12,
+                {
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ],
+                    "serviceId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "serviceInstanceUpdate": [
+                12,
+                {
+                    "environmentId": [
+                        297
+                    ],
+                    "input": [
+                        285,
+                        "ServiceInstanceUpdateInput!"
+                    ],
+                    "serviceId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "serviceRemoveUpstreamUrl": [
+                273,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "serviceUpdate": [
+                273,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "input": [
+                        292,
+                        "ServiceUpdateInput!"
+                    ]
+                }
+            ],
+            "sessionDelete": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "sharedVariableConfigure": [
+                372,
+                {
+                    "input": [
+                        295,
+                        "SharedVariableConfigureInput!"
+                    ]
+                }
+            ],
+            "tcpProxyCreate": [
+                306,
+                {
+                    "input": [
+                        307,
+                        "TCPProxyCreateInput!"
+                    ]
+                }
+            ],
+            "tcpProxyDelete": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "teamBulkProjectTransfer": [
+                12,
+                {
+                    "input": [
+                        309,
+                        "TeamBulkProjectTransferInput!"
+                    ]
+                }
+            ],
+            "teamCreateAndSubscribe": [
+                311,
+                {
+                    "input": [
+                        310,
+                        "TeamCreateAndSubscribeInput!"
+                    ]
+                }
+            ],
+            "teamInviteCodeCreate": [
+                297,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "input": [
+                        312,
+                        "TeamInviteCodeCreateInput!"
+                    ]
+                }
+            ],
+            "teamInviteCodeUse": [
+                308,
+                {
+                    "code": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "teamLeave": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "teamPermissionChange": [
+                12,
+                {
+                    "input": [
+                        315,
+                        "TeamPermissionChangeInput!"
+                    ]
+                }
+            ],
+            "teamTrustedDomainCreate": [
+                12,
+                {
+                    "input": [
+                        320,
+                        "TeamTrustedDomainCreateInput!"
+                    ]
+                }
+            ],
+            "teamTrustedDomainDelete": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "teamUserInvite": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "input": [
+                        321,
+                        "TeamUserInviteInput!"
+                    ]
+                }
+            ],
+            "teamUserRemove": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "input": [
+                        322,
+                        "TeamUserRemoveInput!"
+                    ]
+                }
+            ],
+            "templateClone": [
+                323,
+                {
+                    "input": [
+                        324,
+                        "TemplateCloneInput!"
+                    ]
+                }
+            ],
+            "templateDelete": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "input": [
+                        327,
+                        "TemplateDeleteInput!"
+                    ]
+                }
+            ],
+            "templateDeploy": [
+                329,
+                {
+                    "input": [
+                        328,
+                        "TemplateDeployInput!"
+                    ]
+                }
+            ],
+            "templateDeployV2": [
+                329,
+                {
+                    "input": [
+                        331,
+                        "TemplateDeployV2Input!"
+                    ]
+                }
+            ],
+            "templateGenerate": [
+                323,
+                {
+                    "input": [
+                        332,
+                        "TemplateGenerateInput!"
+                    ]
+                }
+            ],
+            "templateMaybeUnsetCommunityThreadSlug": [
+                12,
+                {
+                    "communityThreadSlug": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "templatePublish": [
+                323,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "input": [
+                        335,
+                        "TemplatePublishInput!"
+                    ]
+                }
+            ],
+            "templateServiceSourceEject": [
+                12,
+                {
+                    "input": [
+                        338,
+                        "TemplateServiceSourceEjectInput!"
+                    ]
+                }
+            ],
+            "templateUnpublish": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "twoFactorInfoCreate": [
+                247,
+                {
+                    "input": [
+                        345,
+                        "TwoFactorInfoCreateInput!"
+                    ]
+                }
+            ],
+            "twoFactorInfoDelete": [
+                12
+            ],
+            "twoFactorInfoSecret": [
+                346
+            ],
+            "twoFactorInfoValidate": [
+                12,
+                {
+                    "input": [
+                        347,
+                        "TwoFactorInfoValidateInput!"
+                    ]
+                }
+            ],
+            "upsertSlackChannelForTeam": [
+                12,
+                {
+                    "teamId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "usageLimitRemove": [
+                12,
+                {
+                    "input": [
+                        353,
+                        "UsageLimitRemoveInput!"
+                    ]
+                }
+            ],
+            "usageLimitSet": [
+                12,
+                {
+                    "input": [
+                        354,
+                        "UsageLimitSetInput!"
+                    ]
+                }
+            ],
+            "userBetaLeave": [
+                12
+            ],
+            "userDelete": [
+                12
+            ],
+            "userDiscordDisconnect": [
+                12
+            ],
+            "userFlagsRemove": [
+                12,
+                {
+                    "input": [
+                        357,
+                        "UserFlagsRemoveInput!"
+                    ]
+                }
+            ],
+            "userFlagsSet": [
+                12,
+                {
+                    "input": [
+                        358,
+                        "UserFlagsSetInput!"
+                    ]
+                }
+            ],
+            "userProfileUpdate": [
+                12,
+                {
+                    "input": [
+                        364,
+                        "UserProfileUpdateInput!"
+                    ]
+                }
+            ],
+            "userSlackDisconnect": [
+                12
+            ],
+            "userTermsUpdate": [
+                355
+            ],
+            "userUpdate": [
+                355,
+                {
+                    "input": [
+                        371,
+                        "UserUpdateInput!"
+                    ]
+                }
+            ],
+            "variableCollectionUpsert": [
+                12,
+                {
+                    "input": [
+                        373,
+                        "VariableCollectionUpsertInput!"
+                    ]
+                }
+            ],
+            "variableDelete": [
+                12,
+                {
+                    "input": [
+                        374,
+                        "VariableDeleteInput!"
+                    ]
+                }
+            ],
+            "variableUpsert": [
+                12,
+                {
+                    "input": [
+                        375,
+                        "VariableUpsertInput!"
+                    ]
+                }
+            ],
+            "volumeCreate": [
+                379,
+                {
+                    "input": [
+                        380,
+                        "VolumeCreateInput!"
+                    ]
+                }
+            ],
+            "volumeDelete": [
+                12,
+                {
+                    "volumeId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "volumeInstanceBackupCreate": [
+                400,
+                {
+                    "volumeInstanceId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "volumeInstanceBackupDelete": [
+                400,
+                {
+                    "volumeInstanceBackupId": [
+                        297,
+                        "String!"
+                    ],
+                    "volumeInstanceId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "volumeInstanceBackupLock": [
+                12,
+                {
+                    "volumeInstanceBackupId": [
+                        297,
+                        "String!"
+                    ],
+                    "volumeInstanceId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "volumeInstanceBackupRestore": [
+                400,
+                {
+                    "volumeInstanceBackupId": [
+                        297,
+                        "String!"
+                    ],
+                    "volumeInstanceId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "volumeInstanceBackupScheduleUpdate": [
+                12,
+                {
+                    "kinds": [
+                        384,
+                        "[VolumeInstanceBackupScheduleKind!]!"
+                    ],
+                    "volumeInstanceId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "volumeInstanceUpdate": [
+                12,
+                {
+                    "environmentId": [
+                        297
+                    ],
+                    "input": [
+                        387,
+                        "VolumeInstanceUpdateInput!"
+                    ],
+                    "volumeId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "volumeUpdate": [
+                379,
+                {
+                    "input": [
+                        391,
+                        "VolumeUpdateInput!"
+                    ],
+                    "volumeId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "webhookCreate": [
+                198,
+                {
+                    "input": [
+                        394,
+                        "WebhookCreateInput!"
+                    ]
+                }
+            ],
+            "webhookDelete": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "webhookUpdate": [
+                198,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "input": [
+                        395,
+                        "WebhookUpdateInput!"
+                    ]
+                }
+            ],
+            "workspaceDelete": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "workspaceLeave": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "workspaceUpdate": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "input": [
+                        404,
+                        "WorkspaceUpdateInput!"
+                    ]
+                }
+            ],
+            "workspaceUpsertSlackChannel": [
+                12,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "Node": {
+            "id": [
+                101
+            ],
+            "on_AdoptionInfo": [
+                3
+            ],
+            "on_ApiToken": [
+                6
+            ],
+            "on_BanReasonHistory": [
+                8
+            ],
+            "on_Container": [
+                20
+            ],
+            "on_Credit": [
+                21
+            ],
+            "on_Customer": [
+                26
+            ],
+            "on_Deployment": [
+                36
+            ],
+            "on_DeploymentEvent": [
+                39
+            ],
+            "on_DeploymentInstanceExecution": [
+                42
+            ],
+            "on_DeploymentSnapshot": [
+                49
+            ],
+            "on_DeploymentTrigger": [
+                53
+            ],
+            "on_Environment": [
+                64
+            ],
+            "on_Event": [
+                82
+            ],
+            "on_Integration": [
+                105
+            ],
+            "on_IntegrationAuth": [
+                106
+            ],
+            "on_InviteCode": [
+                111
+            ],
+            "on_ObservabilityDashboard": [
+                128
+            ],
+            "on_ObservabilityDashboardItem": [
+                130
+            ],
+            "on_ObservabilityDashboardItemInstance": [
+                134
+            ],
+            "on_PlanLimitOverride": [
+                141
+            ],
+            "on_Plugin": [
+                143
+            ],
+            "on_PreferenceOverride": [
+                153
+            ],
+            "on_Preferences": [
+                156
+            ],
+            "on_Project": [
+                162
+            ],
+            "on_ProjectPermission": [
+                180
+            ],
+            "on_ProjectToken": [
+                189
+            ],
+            "on_ProjectWebhook": [
+                198
+            ],
+            "on_ProviderAuth": [
+                201
+            ],
+            "on_ReferralInfo": [
+                248
+            ],
+            "on_RefundRequest": [
+                253
+            ],
+            "on_ReissuedInvoice": [
+                259
+            ],
+            "on_Service": [
+                273
+            ],
+            "on_ServiceInstance": [
+                282
+            ],
+            "on_Session": [
+                293
+            ],
+            "on_Team": [
+                308
+            ],
+            "on_TeamPermission": [
+                314
+            ],
+            "on_TeamTrustedDomain": [
+                319
+            ],
+            "on_Template": [
+                323
+            ],
+            "on_TemplateService": [
+                336
+            ],
+            "on_UsageAnomaly": [
+                349
+            ],
+            "on_UsageLimit": [
+                352
+            ],
+            "on_User": [
+                355
+            ],
+            "on_Variable": [
+                372
+            ],
+            "on_Volume": [
+                379
+            ],
+            "on_VolumeInstance": [
+                381
+            ],
+            "on_VolumeInstanceBackupSchedule": [
+                383
+            ],
+            "on_Withdrawal": [
+                396
+            ],
+            "on_WithdrawalAccount": [
+                397
+            ],
+            "on_Workspace": [
+                403
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ObservabilityDashboard": {
+            "id": [
+                101
+            ],
+            "items": [
+                134
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ObservabilityDashboardCreateInput": {
+            "environmentId": [
+                297
+            ],
+            "items": [
+                136
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ObservabilityDashboardItem": {
+            "config": [
+                131
+            ],
+            "description": [
+                297
+            ],
+            "id": [
+                101
+            ],
+            "name": [
+                297
+            ],
+            "type": [
+                135
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ObservabilityDashboardItemConfig": {
+            "logsFilter": [
+                297
+            ],
+            "measurements": [
+                122
+            ],
+            "projectUsageProperties": [
+                195
+            ],
+            "resourceIds": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ObservabilityDashboardItemConfigInput": {
+            "logsFilter": [
+                297
+            ],
+            "measurements": [
+                122
+            ],
+            "projectUsageProperties": [
+                195
+            ],
+            "resourceIds": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ObservabilityDashboardItemCreateInput": {
+            "config": [
+                132
+            ],
+            "description": [
+                297
+            ],
+            "id": [
+                297
+            ],
+            "name": [
+                297
+            ],
+            "type": [
+                135
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ObservabilityDashboardItemInstance": {
+            "dashboardItem": [
+                130
+            ],
+            "displayConfig": [
+                56
+            ],
+            "id": [
+                101
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ObservabilityDashboardItemType": {},
+        "ObservabilityDashboardUpdateInput": {
+            "dashboardItem": [
+                133
+            ],
+            "displayConfig": [
+                56
+            ],
+            "id": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "OverrideInput": {
+            "enabled": [
+                12
+            ],
+            "name": [
+                297
+            ],
+            "resource": [
+                297
+            ],
+            "resourceId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "PageInfo": {
+            "endCursor": [
+                297
+            ],
+            "hasNextPage": [
+                12
+            ],
+            "hasPreviousPage": [
+                12
+            ],
+            "startCursor": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "PaymentMethod": {
+            "card": [
+                140
+            ],
+            "id": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "PaymentMethodCard": {
+            "brand": [
+                297
+            ],
+            "country": [
+                297
+            ],
+            "last4": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "PlanLimitOverride": {
+            "config": [
+                302
+            ],
+            "id": [
+                101
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "PlatformStatus": {
+            "incident": [
+                102
+            ],
+            "isStable": [
+                12
+            ],
+            "maintenance": [
+                119
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "Plugin": {
+            "containers": [
+                144,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "createdAt": [
+                35
+            ],
+            "deletedAt": [
+                35
+            ],
+            "deprecatedAt": [
+                35
+            ],
+            "friendlyName": [
+                297
+            ],
+            "id": [
+                101
+            ],
+            "logsEnabled": [
+                12
+            ],
+            "migrationDatabaseServiceId": [
+                297
+            ],
+            "name": [
+                149
+            ],
+            "project": [
+                162
+            ],
+            "status": [
+                148
+            ],
+            "variables": [
+                151,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "PluginContainersConnection": {
+            "edges": [
+                145
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "PluginContainersConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                20
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "PluginCreateInput": {
+            "environmentId": [
+                297
+            ],
+            "friendlyName": [
+                297
+            ],
+            "name": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "PluginRestartInput": {
+            "environmentId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "PluginStatus": {},
+        "PluginType": {},
+        "PluginUpdateInput": {
+            "friendlyName": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "PluginVariablesConnection": {
+            "edges": [
+                152
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "PluginVariablesConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                372
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "PreferenceOverride": {
+            "enabled": [
+                12
+            ],
+            "id": [
+                101
+            ],
+            "name": [
+                297
+            ],
+            "resource": [
+                297
+            ],
+            "resourceId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "PreferenceOverridesCreateUpdateData": {
+            "overrides": [
+                137
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "PreferenceOverridesDestroyData": {
+            "resource": [
+                297
+            ],
+            "resourceId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "Preferences": {
+            "buildFailedEmail": [
+                12
+            ],
+            "changelogEmail": [
+                12
+            ],
+            "communityEmail": [
+                12
+            ],
+            "deployCrashedEmail": [
+                12
+            ],
+            "ephemeralEnvironmentEmail": [
+                12
+            ],
+            "id": [
+                101
+            ],
+            "marketingEmail": [
+                12
+            ],
+            "preferenceOverrides": [
+                153
+            ],
+            "subprocessorUpdatesEmail": [
+                12
+            ],
+            "usageEmail": [
+                12
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "PreferencesUpdateData": {
+            "buildFailedEmail": [
+                12
+            ],
+            "changelogEmail": [
+                12
+            ],
+            "communityEmail": [
+                12
+            ],
+            "deployCrashedEmail": [
+                12
+            ],
+            "ephemeralEnvironmentEmail": [
+                12
+            ],
+            "marketingEmail": [
+                12
+            ],
+            "subprocessorUpdatesEmail": [
+                12
+            ],
+            "token": [
+                297
+            ],
+            "usageEmail": [
+                12
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "PrivateNetwork": {
+            "createdAt": [
+                35
+            ],
+            "deletedAt": [
+                35
+            ],
+            "dnsName": [
+                297
+            ],
+            "environmentId": [
+                297
+            ],
+            "name": [
+                297
+            ],
+            "networkId": [
+                10
+            ],
+            "projectId": [
+                297
+            ],
+            "publicId": [
+                297
+            ],
+            "tags": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "PrivateNetworkCreateOrGetInput": {
+            "environmentId": [
+                297
+            ],
+            "name": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "tags": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "PrivateNetworkEndpoint": {
+            "createdAt": [
+                35
+            ],
+            "deletedAt": [
+                35
+            ],
+            "dnsName": [
+                297
+            ],
+            "privateIps": [
+                297
+            ],
+            "publicId": [
+                297
+            ],
+            "serviceInstanceId": [
+                297
+            ],
+            "tags": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "PrivateNetworkEndpointCreateOrGetInput": {
+            "environmentId": [
+                297
+            ],
+            "privateNetworkId": [
+                297
+            ],
+            "serviceId": [
+                297
+            ],
+            "serviceName": [
+                297
+            ],
+            "tags": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "Project": {
+            "baseEnvironment": [
+                64
+            ],
+            "baseEnvironmentId": [
+                297
+            ],
+            "botPrEnvironments": [
+                12
+            ],
+            "createdAt": [
+                35
+            ],
+            "deletedAt": [
+                35
+            ],
+            "deploymentTriggers": [
+                165,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "deployments": [
+                167,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "description": [
+                297
+            ],
+            "environments": [
+                169,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "expiredAt": [
+                35
+            ],
+            "groups": [
+                171,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "id": [
+                101
+            ],
+            "isPublic": [
+                12
+            ],
+            "isTempProject": [
+                12
+            ],
+            "members": [
+                177
+            ],
+            "name": [
+                297
+            ],
+            "plugins": [
+                181,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "prDeploys": [
+                12
+            ],
+            "projectPermissions": [
+                183,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "services": [
+                187,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "subscriptionPlanLimit": [
+                302
+            ],
+            "subscriptionType": [
+                303
+            ],
+            "team": [
+                308
+            ],
+            "teamId": [
+                297
+            ],
+            "updatedAt": [
+                35
+            ],
+            "volumes": [
+                196,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "webhooks": [
+                199,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectCreateInput": {
+            "defaultEnvironmentName": [
+                297
+            ],
+            "description": [
+                297
+            ],
+            "isPublic": [
+                12
+            ],
+            "name": [
+                297
+            ],
+            "plugins": [
+                297
+            ],
+            "prDeploys": [
+                12
+            ],
+            "repo": [
+                164
+            ],
+            "runtime": [
+                204
+            ],
+            "teamId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectCreateRepo": {
+            "branch": [
+                297
+            ],
+            "fullRepoName": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectDeploymentTriggersConnection": {
+            "edges": [
+                166
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectDeploymentTriggersConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                53
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectDeploymentsConnection": {
+            "edges": [
+                168
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectDeploymentsConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                36
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectEnvironmentsConnection": {
+            "edges": [
+                170
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectEnvironmentsConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                64
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectGroupsConnection": {
+            "edges": [
+                172
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectGroupsConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectInvitation": {
+            "email": [
+                297
+            ],
+            "expiresAt": [
+                35
+            ],
+            "id": [
+                101
+            ],
+            "inviter": [
+                174
+            ],
+            "isExpired": [
+                12
+            ],
+            "project": [
+                202
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectInvitationInviter": {
+            "email": [
+                297
+            ],
+            "name": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectInviteUserInput": {
+            "email": [
+                297
+            ],
+            "link": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectInvitee": {
+            "email": [
+                297
+            ],
+            "role": [
+                186
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectMember": {
+            "avatar": [
+                297
+            ],
+            "email": [
+                297
+            ],
+            "id": [
+                297
+            ],
+            "name": [
+                297
+            ],
+            "role": [
+                186
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectMemberRemoveInput": {
+            "projectId": [
+                297
+            ],
+            "userId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectMemberUpdateInput": {
+            "projectId": [
+                297
+            ],
+            "role": [
+                186
+            ],
+            "userId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectPermission": {
+            "id": [
+                101
+            ],
+            "projectId": [
+                297
+            ],
+            "role": [
+                186
+            ],
+            "userId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectPluginsConnection": {
+            "edges": [
+                182
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectPluginsConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                143
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectProjectPermissionsConnection": {
+            "edges": [
+                184
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectProjectPermissionsConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                180
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectResourceAccess": {
+            "customDomain": [
+                0
+            ],
+            "databaseDeployment": [
+                0
+            ],
+            "deployment": [
+                0
+            ],
+            "environment": [
+                0
+            ],
+            "plugin": [
+                0
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectRole": {},
+        "ProjectServicesConnection": {
+            "edges": [
+                188
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectServicesConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                273
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectToken": {
+            "createdAt": [
+                35
+            ],
+            "displayToken": [
+                297
+            ],
+            "environment": [
+                64
+            ],
+            "environmentId": [
+                297
+            ],
+            "id": [
+                101
+            ],
+            "name": [
+                297
+            ],
+            "project": [
+                162
+            ],
+            "projectId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectTokenCreateInput": {
+            "environmentId": [
+                297
+            ],
+            "name": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectTransferConfirmInput": {
+            "destinationWorkspaceId": [
+                297
+            ],
+            "ownershipTransferId": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectTransferInitiateInput": {
+            "memberId": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectTransferToTeamInput": {
+            "teamId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectUpdateInput": {
+            "baseEnvironmentId": [
+                297
+            ],
+            "botPrEnvironments": [
+                12
+            ],
+            "description": [
+                297
+            ],
+            "isPublic": [
+                12
+            ],
+            "name": [
+                297
+            ],
+            "prDeploys": [
+                12
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectUsageProperty": {},
+        "ProjectVolumesConnection": {
+            "edges": [
+                197
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectVolumesConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                379
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectWebhook": {
+            "filters": [
+                297
+            ],
+            "id": [
+                101
+            ],
+            "lastStatus": [
+                104
+            ],
+            "projectId": [
+                297
+            ],
+            "url": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectWebhooksConnection": {
+            "edges": [
+                200
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProjectWebhooksConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                198
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ProviderAuth": {
+            "email": [
+                297
+            ],
+            "id": [
+                101
+            ],
+            "metadata": [
+                112
+            ],
+            "provider": [
+                297
+            ],
+            "userId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "PublicProjectInformation": {
+            "id": [
+                101
+            ],
+            "name": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "PublicProjectInvitation": {
+            "on_InviteCode": [
+                111
+            ],
+            "on_ProjectInvitation": [
+                173
+            ],
+            "on_Node": [
+                127
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "PublicRuntime": {},
+        "PublicStats": {
+            "totalDeploymentsLastMonth": [
+                104
+            ],
+            "totalLogsLastMonth": [
+                10
+            ],
+            "totalProjects": [
+                104
+            ],
+            "totalRequestsLastMonth": [
+                10
+            ],
+            "totalServices": [
+                104
+            ],
+            "totalUsers": [
+                104
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "Query": {
+            "adminVolumeInstancesForVolume": [
+                381,
+                {
+                    "volumeId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "apiTokens": [
+                207,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "buildLogs": [
+                115,
+                {
+                    "deploymentId": [
+                        297,
+                        "String!"
+                    ],
+                    "endDate": [
+                        35
+                    ],
+                    "filter": [
+                        297
+                    ],
+                    "limit": [
+                        104
+                    ],
+                    "startDate": [
+                        35
+                    ]
+                }
+            ],
+            "changelogBlockImage": [
+                297,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "customDomain": [
+                23,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "projectId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "customDomainAvailable": [
+                59,
+                {
+                    "domain": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "deployment": [
+                36,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "deploymentEvents": [
+                209,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "deploymentInstanceExecutions": [
+                211,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "input": [
+                        45,
+                        "DeploymentInstanceExecutionListInput!"
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "deploymentLogs": [
+                115,
+                {
+                    "deploymentId": [
+                        297,
+                        "String!"
+                    ],
+                    "endDate": [
+                        35
+                    ],
+                    "filter": [
+                        297
+                    ],
+                    "limit": [
+                        104
+                    ],
+                    "startDate": [
+                        35
+                    ]
+                }
+            ],
+            "deploymentSnapshot": [
+                49,
+                {
+                    "deploymentId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "deploymentTriggers": [
+                213,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ],
+                    "projectId": [
+                        297,
+                        "String!"
+                    ],
+                    "serviceId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "deployments": [
+                215,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "input": [
+                        47,
+                        "DeploymentListInput!"
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "domainStatus": [
+                60,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ],
+                    "projectId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "domains": [
+                5,
+                {
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ],
+                    "projectId": [
+                        297,
+                        "String!"
+                    ],
+                    "serviceId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "egressGateways": [
+                61,
+                {
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ],
+                    "serviceId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "environment": [
+                64,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "environmentLogs": [
+                115,
+                {
+                    "afterDate": [
+                        297
+                    ],
+                    "afterLimit": [
+                        104
+                    ],
+                    "anchorDate": [
+                        297
+                    ],
+                    "beforeDate": [
+                        297
+                    ],
+                    "beforeLimit": [
+                        104
+                    ],
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ],
+                    "filter": [
+                        297
+                    ]
+                }
+            ],
+            "environmentPatches": [
+                217,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "environments": [
+                219,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "isEphemeral": [
+                        12
+                    ],
+                    "last": [
+                        104
+                    ],
+                    "projectId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "estimatedUsage": [
+                81,
+                {
+                    "includeDeleted": [
+                        12
+                    ],
+                    "measurements": [
+                        122,
+                        "[MetricMeasurement!]!"
+                    ],
+                    "projectId": [
+                        297
+                    ],
+                    "teamId": [
+                        297
+                    ]
+                }
+            ],
+            "events": [
+                221,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "environmentId": [
+                        297
+                    ],
+                    "filter": [
+                        83
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ],
+                    "projectId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "externalWorkspaces": [
+                86,
+                {
+                    "projectId": [
+                        297
+                    ]
+                }
+            ],
+            "functionRuntime": [
+                89,
+                {
+                    "name": [
+                        90,
+                        "FunctionRuntimeName!"
+                    ]
+                }
+            ],
+            "functionRuntimes": [
+                89
+            ],
+            "gitHubRepoAccessAvailable": [
+                92,
+                {
+                    "fullRepoName": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "githubIsRepoNameAvailable": [
+                12,
+                {
+                    "fullRepoName": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "githubRepo": [
+                97,
+                {
+                    "fullRepoName": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "githubRepoBranches": [
+                93,
+                {
+                    "owner": [
+                        297,
+                        "String!"
+                    ],
+                    "repo": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "githubRepos": [
+                94
+            ],
+            "githubWritableScopes": [
+                297
+            ],
+            "herokuApps": [
+                98
+            ],
+            "httpLogs": [
+                100,
+                {
+                    "afterDate": [
+                        297
+                    ],
+                    "afterLimit": [
+                        104
+                    ],
+                    "anchorDate": [
+                        297
+                    ],
+                    "beforeDate": [
+                        297
+                    ],
+                    "beforeLimit": [
+                        104
+                    ],
+                    "deploymentId": [
+                        297,
+                        "String!"
+                    ],
+                    "endDate": [
+                        297
+                    ],
+                    "filter": [
+                        297
+                    ],
+                    "limit": [
+                        104
+                    ],
+                    "startDate": [
+                        297
+                    ]
+                }
+            ],
+            "integrationAuth": [
+                106,
+                {
+                    "provider": [
+                        297,
+                        "String!"
+                    ],
+                    "providerId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "integrationAuths": [
+                223,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "integrations": [
+                225,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ],
+                    "projectId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "inviteCode": [
+                111,
+                {
+                    "code": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "me": [
+                355
+            ],
+            "metrics": [
+                125,
+                {
+                    "averagingWindowSeconds": [
+                        104
+                    ],
+                    "endDate": [
+                        35
+                    ],
+                    "environmentId": [
+                        297
+                    ],
+                    "groupBy": [
+                        123,
+                        "[MetricTag!]"
+                    ],
+                    "includeDeleted": [
+                        12
+                    ],
+                    "measurements": [
+                        122,
+                        "[MetricMeasurement!]!"
+                    ],
+                    "pluginId": [
+                        297
+                    ],
+                    "projectId": [
+                        297
+                    ],
+                    "sampleRateSeconds": [
+                        104
+                    ],
+                    "serviceId": [
+                        297
+                    ],
+                    "startDate": [
+                        35,
+                        "DateTime!"
+                    ],
+                    "teamId": [
+                        297
+                    ],
+                    "volumeId": [
+                        297
+                    ],
+                    "volumeInstanceExternalId": [
+                        297
+                    ],
+                    "workspaceId": [
+                        297
+                    ]
+                }
+            ],
+            "node": [
+                127,
+                {
+                    "id": [
+                        101,
+                        "ID!"
+                    ]
+                }
+            ],
+            "nodes": [
+                127,
+                {
+                    "ids": [
+                        101,
+                        "[ID!]!"
+                    ]
+                }
+            ],
+            "observabilityDashboards": [
+                227,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "platformStatus": [
+                142
+            ],
+            "plugin": [
+                143,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "pluginLogs": [
+                115,
+                {
+                    "endDate": [
+                        35
+                    ],
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ],
+                    "filter": [
+                        297
+                    ],
+                    "limit": [
+                        104
+                    ],
+                    "pluginId": [
+                        297,
+                        "String!"
+                    ],
+                    "startDate": [
+                        35
+                    ]
+                }
+            ],
+            "preferences": [
+                156,
+                {
+                    "token": [
+                        297
+                    ]
+                }
+            ],
+            "privateNetworkEndpoint": [
+                160,
+                {
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ],
+                    "privateNetworkId": [
+                        297,
+                        "String!"
+                    ],
+                    "serviceId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "privateNetworkEndpointNameAvailable": [
+                12,
+                {
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ],
+                    "prefix": [
+                        297,
+                        "String!"
+                    ],
+                    "privateNetworkId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "privateNetworks": [
+                158,
+                {
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "project": [
+                162,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "projectInvitation": [
+                203,
+                {
+                    "code": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "projectInvitations": [
+                173,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "projectInviteCode": [
+                111,
+                {
+                    "projectId": [
+                        297,
+                        "String!"
+                    ],
+                    "role": [
+                        186,
+                        "ProjectRole!"
+                    ]
+                }
+            ],
+            "projectMembers": [
+                177,
+                {
+                    "projectId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "projectResourceAccess": [
+                185,
+                {
+                    "projectId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "projectToken": [
+                189
+            ],
+            "projectTokens": [
+                229,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ],
+                    "projectId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "projects": [
+                231,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "includeDeleted": [
+                        12
+                    ],
+                    "last": [
+                        104
+                    ],
+                    "teamId": [
+                        297
+                    ],
+                    "userId": [
+                        297
+                    ]
+                }
+            ],
+            "publicStats": [
+                205
+            ],
+            "referralInfo": [
+                248,
+                {
+                    "workspaceId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "regions": [
+                255,
+                {
+                    "projectId": [
+                        297
+                    ]
+                }
+            ],
+            "resourceAccess": [
+                264,
+                {
+                    "explicitResourceOwner": [
+                        85,
+                        "ExplicitOwnerInput!"
+                    ]
+                }
+            ],
+            "service": [
+                273,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "serviceDomainAvailable": [
+                59,
+                {
+                    "domain": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "serviceInstance": [
+                282,
+                {
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ],
+                    "serviceId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "serviceInstanceIsUpdatable": [
+                12,
+                {
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ],
+                    "serviceId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "serviceInstanceLimitOverride": [
+                283,
+                {
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ],
+                    "projectId": [
+                        297,
+                        "String!"
+                    ],
+                    "serviceId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "serviceInstanceLimits": [
+                283,
+                {
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ],
+                    "projectId": [
+                        297,
+                        "String!"
+                    ],
+                    "serviceId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "sessions": [
+                233,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "tcpProxies": [
+                306,
+                {
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ],
+                    "serviceId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "team": [
+                308,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "teamByCode": [
+                308,
+                {
+                    "code": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "teamTemplates": [
+                235,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ],
+                    "teamId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "teamTrustedDomains": [
+                237,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ],
+                    "teamId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "template": [
+                323,
+                {
+                    "code": [
+                        297
+                    ],
+                    "owner": [
+                        297
+                    ],
+                    "repo": [
+                        297
+                    ]
+                }
+            ],
+            "templateSourceForProject": [
+                323,
+                {
+                    "projectId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "templates": [
+                239,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ],
+                    "recommended": [
+                        12
+                    ]
+                }
+            ],
+            "templatesCount": [
+                104
+            ],
+            "twoFactorInfo": [
+                344
+            ],
+            "usage": [
+                4,
+                {
+                    "endDate": [
+                        35
+                    ],
+                    "groupBy": [
+                        123,
+                        "[MetricTag!]"
+                    ],
+                    "includeDeleted": [
+                        12
+                    ],
+                    "measurements": [
+                        122,
+                        "[MetricMeasurement!]!"
+                    ],
+                    "projectId": [
+                        297
+                    ],
+                    "startDate": [
+                        35
+                    ],
+                    "teamId": [
+                        297
+                    ]
+                }
+            ],
+            "userIdForDiscordId": [
+                297,
+                {
+                    "discordId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "userIdForSlackId": [
+                297,
+                {
+                    "slackId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "userKickbackEarnings": [
+                359,
+                {
+                    "userId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "userProfile": [
+                361,
+                {
+                    "username": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "userTemplates": [
+                241,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "variables": [
+                76,
+                {
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ],
+                    "pluginId": [
+                        297
+                    ],
+                    "projectId": [
+                        297,
+                        "String!"
+                    ],
+                    "serviceId": [
+                        297
+                    ],
+                    "unrendered": [
+                        12
+                    ]
+                }
+            ],
+            "variablesForServiceDeployment": [
+                76,
+                {
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ],
+                    "projectId": [
+                        297,
+                        "String!"
+                    ],
+                    "serviceId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "vercelInfo": [
+                377
+            ],
+            "volumeInstance": [
+                381,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "volumeInstanceBackupList": [
+                382,
+                {
+                    "volumeInstanceId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "volumeInstanceBackupScheduleList": [
+                383,
+                {
+                    "volumeInstanceId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "webhooks": [
+                243,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ],
+                    "projectId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "workflowStatus": [
+                401,
+                {
+                    "workflowId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "workspace": [
+                403,
+                {
+                    "workspaceId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryApiTokensConnection": {
+            "edges": [
+                208
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryApiTokensConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                6
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryDeploymentEventsConnection": {
+            "edges": [
+                210
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryDeploymentEventsConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                39
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryDeploymentInstanceExecutionsConnection": {
+            "edges": [
+                212
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryDeploymentInstanceExecutionsConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                42
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryDeploymentTriggersConnection": {
+            "edges": [
+                214
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryDeploymentTriggersConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                53
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryDeploymentsConnection": {
+            "edges": [
+                216
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryDeploymentsConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                36
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryEnvironmentPatchesConnection": {
+            "edges": [
+                218
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryEnvironmentPatchesConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryEnvironmentsConnection": {
+            "edges": [
+                220
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryEnvironmentsConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                64
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryEventsConnection": {
+            "edges": [
+                222
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryEventsConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                82
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryIntegrationAuthsConnection": {
+            "edges": [
+                224
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryIntegrationAuthsConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                106
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryIntegrationsConnection": {
+            "edges": [
+                226
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryIntegrationsConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                105
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryObservabilityDashboardsConnection": {
+            "edges": [
+                228
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryObservabilityDashboardsConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                128
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryProjectTokensConnection": {
+            "edges": [
+                230
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryProjectTokensConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                189
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryProjectsConnection": {
+            "edges": [
+                232
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryProjectsConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                162
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QuerySessionsConnection": {
+            "edges": [
+                234
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QuerySessionsConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                293
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryTeamTemplatesConnection": {
+            "edges": [
+                236
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryTeamTemplatesConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                323
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryTeamTrustedDomainsConnection": {
+            "edges": [
+                238
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryTeamTrustedDomainsConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                319
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryTemplatesConnection": {
+            "edges": [
+                240
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryTemplatesConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                323
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryUserTemplatesConnection": {
+            "edges": [
+                242
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryUserTemplatesConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                323
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryWebhooksConnection": {
+            "edges": [
+                244
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "QueryWebhooksConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                198
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "RailpackInfo": {},
+        "RecoveryCodeValidateInput": {
+            "code": [
+                297
+            ],
+            "twoFactorLinkingKey": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "RecoveryCodes": {
+            "recoveryCodes": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ReferralInfo": {
+            "code": [
+                297
+            ],
+            "id": [
+                101
+            ],
+            "referralStats": [
+                250
+            ],
+            "status": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ReferralInfoUpdateInput": {
+            "code": [
+                297
+            ],
+            "workspaceId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ReferralStats": {
+            "credited": [
+                104
+            ],
+            "pending": [
+                104
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ReferralStatus": {},
+        "ReferralUser": {
+            "code": [
+                297
+            ],
+            "id": [
+                297
+            ],
+            "status": [
+                251
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "RefundRequest": {
+            "amount": [
+                104
+            ],
+            "decision": [
+                254
+            ],
+            "id": [
+                101
+            ],
+            "invoiceId": [
+                297
+            ],
+            "plainThreadId": [
+                297
+            ],
+            "reason": [
+                297
+            ],
+            "userId": [
+                297
+            ],
+            "workspace": [
+                403
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "RefundRequestDecisionEnum": {},
+        "Region": {
+            "country": [
+                297
+            ],
+            "deploymentConstraints": [
+                256
+            ],
+            "location": [
+                297
+            ],
+            "name": [
+                297
+            ],
+            "railwayMetal": [
+                12
+            ],
+            "region": [
+                297
+            ],
+            "teamId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "RegionDeploymentConstraints": {
+            "adminOnly": [
+                12
+            ],
+            "runtimeExclusivity": [
+                297
+            ],
+            "stagingOnly": [
+                12
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "RegistrationStatus": {},
+        "RegistryCredentialsInput": {
+            "password": [
+                297
+            ],
+            "username": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ReissuedInvoice": {
+            "id": [
+                101
+            ],
+            "originalInvoiceId": [
+                297
+            ],
+            "reissuedInvoiceId": [
+                297
+            ],
+            "workspace": [
+                403
+            ],
+            "workspaceId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ReplicateVolumeInstanceSnapshotStatus": {},
+        "ReplicateVolumeInstanceStatus": {},
+        "ResetPluginCredentialsInput": {
+            "environmentId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ResetPluginInput": {
+            "environmentId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ResourceAccess": {
+            "deployment": [
+                0
+            ],
+            "project": [
+                0
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ResourceOwnerType": {},
+        "RestartPolicyType": {},
+        "SendBountyWonEmailInput": {
+            "bountyAmount": [
+                88
+            ],
+            "threadTitle": [
+                297
+            ],
+            "threadUrl": [
+                297
+            ],
+            "userId": [
+                297
+            ],
+            "workspaceName": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "SendCommunityThreadNotificationEmailInput": {
+            "postEntryContent": [
+                297
+            ],
+            "threadTitle": [
+                297
+            ],
+            "threadUrl": [
+                297
+            ],
+            "userIds": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "SendCommunityWelcomeEmailInput": {
+            "userId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "SendNewBountyEmailInput": {
+            "threadTitle": [
+                297
+            ],
+            "threadUrl": [
+                297
+            ],
+            "userIds": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "SendQuestionMovedToBountyEmailInput": {
+            "threadTitle": [
+                297
+            ],
+            "threadUrl": [
+                297
+            ],
+            "userId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "SerializedTemplateConfig": {},
+        "Service": {
+            "createdAt": [
+                35
+            ],
+            "deletedAt": [
+                35
+            ],
+            "deployments": [
+                276,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "featureFlags": [
+                2
+            ],
+            "icon": [
+                297
+            ],
+            "id": [
+                101
+            ],
+            "name": [
+                297
+            ],
+            "project": [
+                162
+            ],
+            "projectId": [
+                297
+            ],
+            "repoTriggers": [
+                286,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "serviceInstances": [
+                288,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "templateServiceId": [
+                297
+            ],
+            "templateThreadSlug": [
+                297
+            ],
+            "updatedAt": [
+                35
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ServiceConnectInput": {
+            "branch": [
+                297
+            ],
+            "image": [
+                297
+            ],
+            "repo": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ServiceCreateInput": {
+            "branch": [
+                297
+            ],
+            "environmentId": [
+                297
+            ],
+            "icon": [
+                297
+            ],
+            "name": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "registryCredentials": [
+                258
+            ],
+            "source": [
+                291
+            ],
+            "templateServiceId": [
+                297
+            ],
+            "variables": [
+                76
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ServiceDeploymentsConnection": {
+            "edges": [
+                277
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ServiceDeploymentsConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                36
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ServiceDomain": {
+            "createdAt": [
+                35
+            ],
+            "deletedAt": [
+                35
+            ],
+            "domain": [
+                297
+            ],
+            "edgeId": [
+                297
+            ],
+            "environmentId": [
+                297
+            ],
+            "id": [
+                101
+            ],
+            "projectId": [
+                297
+            ],
+            "serviceId": [
+                297
+            ],
+            "suffix": [
+                297
+            ],
+            "targetPort": [
+                104
+            ],
+            "updatedAt": [
+                35
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ServiceDomainCreateInput": {
+            "environmentId": [
+                297
+            ],
+            "serviceId": [
+                297
+            ],
+            "targetPort": [
+                104
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ServiceDomainUpdateInput": {
+            "domain": [
+                297
+            ],
+            "environmentId": [
+                297
+            ],
+            "serviceDomainId": [
+                297
+            ],
+            "serviceId": [
+                297
+            ],
+            "targetPort": [
+                104
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ServiceFeatureFlagToggleInput": {
+            "flag": [
+                2
+            ],
+            "serviceId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ServiceInstance": {
+            "buildCommand": [
+                297
+            ],
+            "builder": [
+                13
+            ],
+            "createdAt": [
+                35
+            ],
+            "cronSchedule": [
+                297
+            ],
+            "deletedAt": [
+                35
+            ],
+            "domains": [
+                5
+            ],
+            "environmentId": [
+                297
+            ],
+            "healthcheckPath": [
+                297
+            ],
+            "healthcheckTimeout": [
+                104
+            ],
+            "id": [
+                101
+            ],
+            "isUpdatable": [
+                12
+            ],
+            "latestDeployment": [
+                36
+            ],
+            "nextCronRunAt": [
+                35
+            ],
+            "nixpacksPlan": [
+                112
+            ],
+            "numReplicas": [
+                104
+            ],
+            "preDeployCommand": [
+                112
+            ],
+            "railpackInfo": [
+                245
+            ],
+            "railwayConfigFile": [
+                297
+            ],
+            "region": [
+                297
+            ],
+            "restartPolicyMaxRetries": [
+                104
+            ],
+            "restartPolicyType": [
+                266
+            ],
+            "rootDirectory": [
+                297
+            ],
+            "serviceId": [
+                297
+            ],
+            "serviceName": [
+                297
+            ],
+            "sleepApplication": [
+                12
+            ],
+            "source": [
+                290
+            ],
+            "startCommand": [
+                297
+            ],
+            "updatedAt": [
+                35
+            ],
+            "upstreamUrl": [
+                297
+            ],
+            "watchPatterns": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ServiceInstanceLimit": {},
+        "ServiceInstanceLimitsUpdateInput": {
+            "environmentId": [
+                297
+            ],
+            "memoryGB": [
+                88
+            ],
+            "serviceId": [
+                297
+            ],
+            "vCPUs": [
+                88
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ServiceInstanceUpdateInput": {
+            "buildCommand": [
+                297
+            ],
+            "builder": [
+                13
+            ],
+            "cronSchedule": [
+                297
+            ],
+            "healthcheckPath": [
+                297
+            ],
+            "healthcheckTimeout": [
+                104
+            ],
+            "multiRegionConfig": [
+                112
+            ],
+            "nixpacksPlan": [
+                112
+            ],
+            "numReplicas": [
+                104
+            ],
+            "preDeployCommand": [
+                297
+            ],
+            "railwayConfigFile": [
+                297
+            ],
+            "region": [
+                297
+            ],
+            "registryCredentials": [
+                258
+            ],
+            "restartPolicyMaxRetries": [
+                104
+            ],
+            "restartPolicyType": [
+                266
+            ],
+            "rootDirectory": [
+                297
+            ],
+            "sleepApplication": [
+                12
+            ],
+            "source": [
+                291
+            ],
+            "startCommand": [
+                297
+            ],
+            "watchPatterns": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ServiceRepoTriggersConnection": {
+            "edges": [
+                287
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ServiceRepoTriggersConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                53
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ServiceServiceInstancesConnection": {
+            "edges": [
+                289
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ServiceServiceInstancesConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                282
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ServiceSource": {
+            "image": [
+                297
+            ],
+            "repo": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ServiceSourceInput": {
+            "image": [
+                297
+            ],
+            "repo": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "ServiceUpdateInput": {
+            "icon": [
+                297
+            ],
+            "name": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "Session": {
+            "createdAt": [
+                35
+            ],
+            "expiredAt": [
+                35
+            ],
+            "id": [
+                101
+            ],
+            "isCurrent": [
+                12
+            ],
+            "name": [
+                297
+            ],
+            "type": [
+                294
+            ],
+            "updatedAt": [
+                35
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "SessionType": {},
+        "SharedVariableConfigureInput": {
+            "disabledServiceIds": [
+                297
+            ],
+            "enabledServiceIds": [
+                297
+            ],
+            "environmentId": [
+                297
+            ],
+            "name": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "SimilarTemplate": {
+            "code": [
+                297
+            ],
+            "createdAt": [
+                35
+            ],
+            "creator": [
+                326
+            ],
+            "deploys": [
+                104
+            ],
+            "description": [
+                297
+            ],
+            "health": [
+                88
+            ],
+            "image": [
+                297
+            ],
+            "name": [
+                297
+            ],
+            "teamId": [
+                297
+            ],
+            "userId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "String": {},
+        "Subscription": {
+            "buildLogs": [
+                115,
+                {
+                    "deploymentId": [
+                        297,
+                        "String!"
+                    ],
+                    "filter": [
+                        297
+                    ],
+                    "limit": [
+                        104
+                    ]
+                }
+            ],
+            "deployment": [
+                36,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "deploymentEvents": [
+                39,
+                {
+                    "id": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "deploymentInstanceExecutions": [
+                42,
+                {
+                    "input": [
+                        44,
+                        "DeploymentInstanceExecutionInput!"
+                    ]
+                }
+            ],
+            "deploymentLogs": [
+                115,
+                {
+                    "deploymentId": [
+                        297,
+                        "String!"
+                    ],
+                    "filter": [
+                        297
+                    ],
+                    "limit": [
+                        104
+                    ]
+                }
+            ],
+            "environmentLogs": [
+                115,
+                {
+                    "afterDate": [
+                        297
+                    ],
+                    "afterLimit": [
+                        104
+                    ],
+                    "anchorDate": [
+                        297
+                    ],
+                    "beforeDate": [
+                        297
+                    ],
+                    "beforeLimit": [
+                        104
+                    ],
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ],
+                    "filter": [
+                        297
+                    ]
+                }
+            ],
+            "httpLogs": [
+                100,
+                {
+                    "afterDate": [
+                        297
+                    ],
+                    "afterLimit": [
+                        104
+                    ],
+                    "anchorDate": [
+                        297
+                    ],
+                    "beforeDate": [
+                        297
+                    ],
+                    "beforeLimit": [
+                        104
+                    ],
+                    "deploymentId": [
+                        297,
+                        "String!"
+                    ],
+                    "filter": [
+                        297
+                    ]
+                }
+            ],
+            "pluginLogs": [
+                115,
+                {
+                    "environmentId": [
+                        297,
+                        "String!"
+                    ],
+                    "filter": [
+                        297
+                    ],
+                    "limit": [
+                        104
+                    ],
+                    "pluginId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "replicationProgress": [
+                388,
+                {
+                    "volumeInstanceId": [
+                        297,
+                        "String!"
+                    ]
+                }
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "SubscriptionDiscount": {
+            "couponId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "SubscriptionItem": {
+            "itemId": [
+                297
+            ],
+            "priceId": [
+                297
+            ],
+            "productId": [
+                297
+            ],
+            "quantity": [
+                10
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "SubscriptionModel": {},
+        "SubscriptionPlanLimit": {},
+        "SubscriptionPlanType": {},
+        "SubscriptionState": {},
+        "SupportTierOverride": {},
+        "TCPProxy": {
+            "applicationPort": [
+                104
+            ],
+            "createdAt": [
+                35
+            ],
+            "deletedAt": [
+                35
+            ],
+            "domain": [
+                297
+            ],
+            "environmentId": [
+                297
+            ],
+            "id": [
+                101
+            ],
+            "proxyPort": [
+                104
+            ],
+            "serviceId": [
+                297
+            ],
+            "updatedAt": [
+                35
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TCPProxyCreateInput": {
+            "applicationPort": [
+                104
+            ],
+            "environmentId": [
+                297
+            ],
+            "serviceId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "Team": {
+            "adoptionHistory": [
+                3
+            ],
+            "adoptionLevel": [
+                88
+            ],
+            "avatar": [
+                297
+            ],
+            "createdAt": [
+                35
+            ],
+            "customer": [
+                26
+            ],
+            "id": [
+                101
+            ],
+            "members": [
+                313
+            ],
+            "name": [
+                297
+            ],
+            "preferredRegion": [
+                297
+            ],
+            "projects": [
+                316,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "slackChannelId": [
+                297
+            ],
+            "supportTierOverride": [
+                305
+            ],
+            "teamPermissions": [
+                314
+            ],
+            "updatedAt": [
+                35
+            ],
+            "workspace": [
+                403
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TeamBulkProjectTransferInput": {
+            "projectIds": [
+                297
+            ],
+            "teamId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TeamCreateAndSubscribeInput": {
+            "avatar": [
+                297
+            ],
+            "name": [
+                297
+            ],
+            "paymentMethodId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TeamCreateAndSubscribeResponse": {
+            "customerId": [
+                297
+            ],
+            "paymentIntent": [
+                112
+            ],
+            "teamId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TeamInviteCodeCreateInput": {
+            "role": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TeamMember": {
+            "avatar": [
+                297
+            ],
+            "email": [
+                297
+            ],
+            "featureFlags": [
+                1
+            ],
+            "id": [
+                297
+            ],
+            "name": [
+                297
+            ],
+            "role": [
+                318
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TeamPermission": {
+            "createdAt": [
+                35
+            ],
+            "id": [
+                101
+            ],
+            "role": [
+                318
+            ],
+            "teamId": [
+                297
+            ],
+            "updatedAt": [
+                35
+            ],
+            "userId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TeamPermissionChangeInput": {
+            "role": [
+                318
+            ],
+            "teamId": [
+                297
+            ],
+            "userId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TeamProjectsConnection": {
+            "edges": [
+                317
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TeamProjectsConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                162
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TeamRole": {},
+        "TeamTrustedDomain": {
+            "domainName": [
+                297
+            ],
+            "id": [
+                101
+            ],
+            "teamId": [
+                297
+            ],
+            "teamRole": [
+                297
+            ],
+            "verificationData": [
+                343
+            ],
+            "verificationType": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TeamTrustedDomainCreateInput": {
+            "domainName": [
+                297
+            ],
+            "teamId": [
+                297
+            ],
+            "teamRole": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TeamUserInviteInput": {
+            "code": [
+                297
+            ],
+            "email": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TeamUserRemoveInput": {
+            "userId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "Template": {
+            "activeProjects": [
+                104
+            ],
+            "canvasConfig": [
+                15
+            ],
+            "category": [
+                297
+            ],
+            "code": [
+                297
+            ],
+            "communityThreadSlug": [
+                297
+            ],
+            "config": [
+                325
+            ],
+            "createdAt": [
+                35
+            ],
+            "creator": [
+                326
+            ],
+            "demoProjectId": [
+                297
+            ],
+            "description": [
+                297
+            ],
+            "guides": [
+                333
+            ],
+            "health": [
+                88
+            ],
+            "id": [
+                101
+            ],
+            "image": [
+                297
+            ],
+            "isApproved": [
+                12
+            ],
+            "isV2Template": [
+                12
+            ],
+            "languages": [
+                297
+            ],
+            "metadata": [
+                334
+            ],
+            "name": [
+                297
+            ],
+            "projects": [
+                104
+            ],
+            "readme": [
+                297
+            ],
+            "serializedConfig": [
+                272
+            ],
+            "services": [
+                339,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "similarTemplates": [
+                296
+            ],
+            "status": [
+                341
+            ],
+            "tags": [
+                297
+            ],
+            "teamId": [
+                297
+            ],
+            "totalPayout": [
+                88
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TemplateCloneInput": {
+            "code": [
+                297
+            ],
+            "teamId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TemplateConfig": {},
+        "TemplateCreator": {
+            "avatar": [
+                297
+            ],
+            "hasPublicProfile": [
+                12
+            ],
+            "name": [
+                297
+            ],
+            "username": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TemplateDeleteInput": {
+            "teamId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TemplateDeployInput": {
+            "environmentId": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "services": [
+                330
+            ],
+            "teamId": [
+                297
+            ],
+            "templateCode": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TemplateDeployPayload": {
+            "projectId": [
+                297
+            ],
+            "workflowId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TemplateDeployService": {
+            "commit": [
+                297
+            ],
+            "hasDomain": [
+                12
+            ],
+            "healthcheckPath": [
+                297
+            ],
+            "id": [
+                297
+            ],
+            "isPrivate": [
+                12
+            ],
+            "name": [
+                297
+            ],
+            "owner": [
+                297
+            ],
+            "preDeployCommand": [
+                297
+            ],
+            "rootDirectory": [
+                297
+            ],
+            "serviceIcon": [
+                297
+            ],
+            "serviceName": [
+                297
+            ],
+            "startCommand": [
+                297
+            ],
+            "tcpProxyApplicationPort": [
+                104
+            ],
+            "template": [
+                297
+            ],
+            "variables": [
+                76
+            ],
+            "volumes": [
+                342
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TemplateDeployV2Input": {
+            "environmentId": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "serializedConfig": [
+                272
+            ],
+            "teamId": [
+                297
+            ],
+            "templateId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TemplateGenerateInput": {
+            "environmentId": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "teamId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TemplateGuide": {
+            "post": [
+                297
+            ],
+            "video": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TemplateMetadata": {},
+        "TemplatePublishInput": {
+            "category": [
+                297
+            ],
+            "demoProjectId": [
+                297
+            ],
+            "description": [
+                297
+            ],
+            "image": [
+                297
+            ],
+            "readme": [
+                297
+            ],
+            "teamId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TemplateService": {
+            "config": [
+                337
+            ],
+            "createdAt": [
+                35
+            ],
+            "id": [
+                101
+            ],
+            "templateId": [
+                297
+            ],
+            "updatedAt": [
+                35
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TemplateServiceConfig": {},
+        "TemplateServiceSourceEjectInput": {
+            "projectId": [
+                297
+            ],
+            "repoName": [
+                297
+            ],
+            "repoOwner": [
+                297
+            ],
+            "serviceIds": [
+                297
+            ],
+            "upstreamUrl": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TemplateServicesConnection": {
+            "edges": [
+                340
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TemplateServicesConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                336
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TemplateStatus": {},
+        "TemplateVolume": {},
+        "TrustedDomainVerificationData": {
+            "domainMatch": [
+                58
+            ],
+            "domainStatus": [
+                25
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TwoFactorInfo": {
+            "hasRecoveryCodes": [
+                12
+            ],
+            "isVerified": [
+                12
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TwoFactorInfoCreateInput": {
+            "token": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TwoFactorInfoSecret": {
+            "secret": [
+                297
+            ],
+            "uri": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "TwoFactorInfoValidateInput": {
+            "token": [
+                297
+            ],
+            "twoFactorLinkingKey": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "Upload": {},
+        "UsageAnomaly": {
+            "actedOn": [
+                35
+            ],
+            "action": [
+                350
+            ],
+            "actorId": [
+                297
+            ],
+            "flaggedAt": [
+                35
+            ],
+            "flaggedFor": [
+                351
+            ],
+            "id": [
+                101
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "UsageAnomalyAction": {},
+        "UsageAnomalyFlagReason": {},
+        "UsageLimit": {
+            "customerId": [
+                297
+            ],
+            "hardLimit": [
+                104
+            ],
+            "id": [
+                101
+            ],
+            "isOverLimit": [
+                12
+            ],
+            "softLimit": [
+                104
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "UsageLimitRemoveInput": {
+            "customerId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "UsageLimitSetInput": {
+            "customerId": [
+                297
+            ],
+            "hardLimitDollars": [
+                104
+            ],
+            "softLimitDollars": [
+                104
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "User": {
+            "agreedFairUse": [
+                12
+            ],
+            "avatar": [
+                297
+            ],
+            "banReason": [
+                297
+            ],
+            "createdAt": [
+                35
+            ],
+            "email": [
+                297
+            ],
+            "featureFlags": [
+                1
+            ],
+            "flags": [
+                356
+            ],
+            "has2FA": [
+                12
+            ],
+            "id": [
+                101
+            ],
+            "isAdmin": [
+                12
+            ],
+            "isConductor": [
+                12
+            ],
+            "isVerified": [
+                12
+            ],
+            "lastLogin": [
+                35
+            ],
+            "name": [
+                297
+            ],
+            "profile": [
+                360
+            ],
+            "projects": [
+                365,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "providerAuths": [
+                367,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "registrationStatus": [
+                257
+            ],
+            "riskLevel": [
+                88
+            ],
+            "teams": [
+                369,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "termsAgreedOn": [
+                35
+            ],
+            "username": [
+                297
+            ],
+            "workspace": [
+                403
+            ],
+            "workspaces": [
+                403
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "UserFlag": {},
+        "UserFlagsRemoveInput": {
+            "flags": [
+                356
+            ],
+            "userId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "UserFlagsSetInput": {
+            "flags": [
+                356
+            ],
+            "userId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "UserKickbackEarnings": {
+            "total_amount": [
+                88
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "UserProfile": {
+            "bio": [
+                297
+            ],
+            "isPublic": [
+                12
+            ],
+            "website": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "UserProfileResponse": {
+            "avatar": [
+                297
+            ],
+            "createdAt": [
+                35
+            ],
+            "customerId": [
+                297
+            ],
+            "id": [
+                297
+            ],
+            "isTrialing": [
+                12
+            ],
+            "name": [
+                297
+            ],
+            "profile": [
+                360
+            ],
+            "publicProjects": [
+                362,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "publishedTemplates": [
+                296
+            ],
+            "state": [
+                297
+            ],
+            "totalDeploys": [
+                104
+            ],
+            "username": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "UserProfileResponsePublicProjectsConnection": {
+            "edges": [
+                363
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "UserProfileResponsePublicProjectsConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                162
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "UserProfileUpdateInput": {
+            "bio": [
+                297
+            ],
+            "isPublic": [
+                12
+            ],
+            "website": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "UserProjectsConnection": {
+            "edges": [
+                366
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "UserProjectsConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                162
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "UserProviderAuthsConnection": {
+            "edges": [
+                368
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "UserProviderAuthsConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                201
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "UserTeamsConnection": {
+            "edges": [
+                370
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "UserTeamsConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                308
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "UserUpdateInput": {
+            "avatar": [
+                297
+            ],
+            "name": [
+                297
+            ],
+            "username": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "Variable": {
+            "createdAt": [
+                35
+            ],
+            "environment": [
+                64
+            ],
+            "environmentId": [
+                297
+            ],
+            "id": [
+                101
+            ],
+            "isSealed": [
+                12
+            ],
+            "name": [
+                297
+            ],
+            "plugin": [
+                143
+            ],
+            "pluginId": [
+                297
+            ],
+            "references": [
+                297
+            ],
+            "service": [
+                273
+            ],
+            "serviceId": [
+                297
+            ],
+            "updatedAt": [
+                35
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "VariableCollectionUpsertInput": {
+            "environmentId": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "replace": [
+                12
+            ],
+            "serviceId": [
+                297
+            ],
+            "variables": [
+                76
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "VariableDeleteInput": {
+            "environmentId": [
+                297
+            ],
+            "name": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "serviceId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "VariableUpsertInput": {
+            "environmentId": [
+                297
+            ],
+            "name": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "serviceId": [
+                297
+            ],
+            "value": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "VercelAccount": {
+            "id": [
+                297
+            ],
+            "integrationAuthId": [
+                297
+            ],
+            "isUser": [
+                12
+            ],
+            "name": [
+                297
+            ],
+            "projects": [
+                378
+            ],
+            "slug": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "VercelInfo": {
+            "accounts": [
+                376
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "VercelProject": {
+            "accountId": [
+                297
+            ],
+            "id": [
+                297
+            ],
+            "name": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "Volume": {
+            "createdAt": [
+                35
+            ],
+            "id": [
+                101
+            ],
+            "name": [
+                297
+            ],
+            "project": [
+                162
+            ],
+            "projectId": [
+                297
+            ],
+            "volumeInstances": [
+                392,
+                {
+                    "after": [
+                        297
+                    ],
+                    "before": [
+                        297
+                    ],
+                    "first": [
+                        104
+                    ],
+                    "last": [
+                        104
+                    ]
+                }
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "VolumeCreateInput": {
+            "environmentId": [
+                297
+            ],
+            "mountPath": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "serviceId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "VolumeInstance": {
+            "createdAt": [
+                35
+            ],
+            "currentSizeMB": [
+                88
+            ],
+            "environment": [
+                64
+            ],
+            "environmentId": [
+                297
+            ],
+            "externalId": [
+                297
+            ],
+            "id": [
+                101
+            ],
+            "mountPath": [
+                297
+            ],
+            "region": [
+                297
+            ],
+            "service": [
+                273
+            ],
+            "serviceId": [
+                297
+            ],
+            "sizeMB": [
+                104
+            ],
+            "state": [
+                390
+            ],
+            "type": [
+                386
+            ],
+            "volume": [
+                379
+            ],
+            "volumeId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "VolumeInstanceBackup": {
+            "createdAt": [
+                35
+            ],
+            "creatorId": [
+                297
+            ],
+            "expiresAt": [
+                35
+            ],
+            "externalId": [
+                297
+            ],
+            "id": [
+                297
+            ],
+            "name": [
+                297
+            ],
+            "referencedMB": [
+                104
+            ],
+            "usedMB": [
+                104
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "VolumeInstanceBackupSchedule": {
+            "createdAt": [
+                35
+            ],
+            "cron": [
+                297
+            ],
+            "id": [
+                101
+            ],
+            "kind": [
+                384
+            ],
+            "name": [
+                297
+            ],
+            "retentionSeconds": [
+                104
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "VolumeInstanceBackupScheduleKind": {},
+        "VolumeInstanceReplicationProgress": {
+            "bytesTransferred": [
+                10
+            ],
+            "percentComplete": [
+                88
+            ],
+            "timestamp": [
+                35
+            ],
+            "transferRateMbps": [
+                88
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "VolumeInstanceType": {},
+        "VolumeInstanceUpdateInput": {
+            "mountPath": [
+                297
+            ],
+            "serviceId": [
+                297
+            ],
+            "state": [
+                390
+            ],
+            "type": [
+                386
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "VolumeReplicationProgressUpdate": {
+            "currentSnapshot": [
+                389
+            ],
+            "destExternalId": [
+                297
+            ],
+            "destRegion": [
+                297
+            ],
+            "destStackerId": [
+                297
+            ],
+            "error": [
+                297
+            ],
+            "estimatedTimeRemainingMs": [
+                10
+            ],
+            "history": [
+                385
+            ],
+            "nbSnapshots": [
+                104
+            ],
+            "offlineBytesTransferred": [
+                10
+            ],
+            "offlineTotalBytes": [
+                10
+            ],
+            "onlineBytesTransferred": [
+                10
+            ],
+            "onlineTotalBytes": [
+                10
+            ],
+            "percentComplete": [
+                88
+            ],
+            "snapshotsSizes": [
+                10
+            ],
+            "srcExternalId": [
+                297
+            ],
+            "srcRegion": [
+                297
+            ],
+            "srcStackerId": [
+                297
+            ],
+            "status": [
+                261
+            ],
+            "transferRateMbps": [
+                88
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "VolumeSnapshotReplicationProgressUpdate": {
+            "bytesTransferred": [
+                10
+            ],
+            "compressedBytesTransferred": [
+                10
+            ],
+            "compressedTransferRateMbps": [
+                88
+            ],
+            "elapsedMs": [
+                104
+            ],
+            "error": [
+                297
+            ],
+            "estimatedTimeRemainingMs": [
+                10
+            ],
+            "index": [
+                104
+            ],
+            "percentComplete": [
+                88
+            ],
+            "startedAt": [
+                35
+            ],
+            "status": [
+                260
+            ],
+            "totalBytes": [
+                10
+            ],
+            "transferRateMbps": [
+                88
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "VolumeState": {},
+        "VolumeUpdateInput": {
+            "name": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "VolumeVolumeInstancesConnection": {
+            "edges": [
+                393
+            ],
+            "pageInfo": [
+                138
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "VolumeVolumeInstancesConnectionEdge": {
+            "cursor": [
+                297
+            ],
+            "node": [
+                381
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "WebhookCreateInput": {
+            "filters": [
+                297
+            ],
+            "projectId": [
+                297
+            ],
+            "url": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "WebhookUpdateInput": {
+            "filters": [
+                297
+            ],
+            "url": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "Withdrawal": {
+            "amount": [
+                88
+            ],
+            "createdAt": [
+                35
+            ],
+            "customerId": [
+                297
+            ],
+            "id": [
+                101
+            ],
+            "status": [
+                399
+            ],
+            "updatedAt": [
+                35
+            ],
+            "withdrawalAccountId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "WithdrawalAccount": {
+            "customerId": [
+                297
+            ],
+            "id": [
+                101
+            ],
+            "platform": [
+                398
+            ],
+            "platformDetails": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "WithdrawalPlatformTypes": {},
+        "WithdrawalStatusType": {},
+        "WorkflowId": {
+            "workflowId": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "WorkflowResult": {
+            "error": [
+                297
+            ],
+            "status": [
+                402
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "WorkflowStatus": {},
+        "Workspace": {
+            "avatar": [
+                297
+            ],
+            "banReason": [
+                297
+            ],
+            "createdAt": [
+                35
+            ],
+            "customer": [
+                26
+            ],
+            "discordRole": [
+                297
+            ],
+            "id": [
+                101
+            ],
+            "name": [
+                297
+            ],
+            "preferredRegion": [
+                297
+            ],
+            "referredUsers": [
+                252
+            ],
+            "slackChannelId": [
+                297
+            ],
+            "subscriptionModel": [
+                301
+            ],
+            "supportTierOverride": [
+                305
+            ],
+            "team": [
+                308
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "WorkspaceUpdateInput": {
+            "avatar": [
+                297
+            ],
+            "name": [
+                297
+            ],
+            "preferredRegion": [
+                297
+            ],
+            "__typename": [
+                297
+            ]
+        },
+        "customerTogglePayoutsToCreditsInput": {
+            "isWithdrawingToCredits": [
+                12
+            ],
+            "__typename": [
+                297
+            ]
+        }
+    }
+}
